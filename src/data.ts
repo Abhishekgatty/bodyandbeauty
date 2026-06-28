@@ -216,30 +216,30 @@ export const BLOG_POSTS: BlogPost[] = [
   }
 ];
 
-export const BEFORE_AFTER_ITEMS: BeforeAfterItem[] = [
-  {
-    id: 'ba-1',
-    before_url: 'https://images.unsplash.com/photo-1617331721458-bf3a30070bc0?auto=format&fit=crop&q=80&w=500',
-    after_url: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=500',
-    title: 'Keratin Smoothing Transformation',
-    description: 'Bespoke high-gloss protein reconstruction on frizzy, dry hair. Transformed to perfectly structured honey-blonde waves.',
-    created_at: '2026-06-20T10:00:00.000Z'
-  },
-  {
-    id: 'ba-2',
-    before_url: 'https://images.unsplash.com/photo-1600607687930-c11fa6771d9d?auto=format&fit=crop&q=80&w=500',
-    after_url: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=500',
-    title: 'Bridal Skin HD Hydration Glow',
-    description: 'Hydra-infusion mechanical exfoliation followed by 24K gold foil cellular therapy, creating a smooth and plump skin canvas.',
-    created_at: '2026-06-21T11:30:00.000Z'
-  },
-  {
-    id: 'ba-3',
-    before_url: 'https://images.unsplash.com/photo-1604654784400-0f2a7dbdfcb7?auto=format&fit=crop&q=80&w=500',
-    after_url: 'https://images.unsplash.com/photo-1604654894610-df4906b1850a?auto=format&fit=crop&q=80&w=500',
-    title: 'Gel Extension & Emerald Chrome Art',
-    description: 'Full set custom gel extensions styled with emerald green lacquer, real gold foil leaves, and high-gloss protective sealing.',
-    created_at: '2026-06-22T14:15:00.000Z'
-  }
-];
+// export const BEFORE_AFTER_ITEMS: BeforeAfterItem[] = [
+//   {
+//     id: 'ba-1',
+//     before_url: 'https://images.unsplash.com/photo-1617331721458-bf3a30070bc0?auto=format&fit=crop&q=80&w=500',
+//     after_url: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=500',
+//     title: 'Keratin Smoothing Transformation',
+//     description: 'Bespoke high-gloss protein reconstruction on frizzy, dry hair. Transformed to perfectly structured honey-blonde waves.',
+//     created_at: '2026-06-20T10:00:00.000Z'
+//   },
+//   {
+//     id: 'ba-2',
+//     before_url: 'https://images.unsplash.com/photo-1600607687930-c11fa6771d9d?auto=format&fit=crop&q=80&w=500',
+//     after_url: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=500',
+//     title: 'Bridal Skin HD Hydration Glow',
+//     description: 'Hydra-infusion mechanical exfoliation followed by 24K gold foil cellular therapy, creating a smooth and plump skin canvas.',
+//     created_at: '2026-06-21T11:30:00.000Z'
+//   },
+//   {
+//     id: 'ba-3',
+//     before_url: 'https://images.unsplash.com/photo-1604654784400-0f2a7dbdfcb7?auto=format&fit=crop&q=80&w=500',
+//     after_url: 'https://images.unsplash.com/photo-1604654894610-df4906b1850a?auto=format&fit=crop&q=80&w=500',
+//     title: 'Gel Extension & Emerald Chrome Art',
+//     description: 'Full set custom gel extensions styled with emerald green lacquer, real gold foil leaves, and high-gloss protective sealing.',
+//     created_at: '2026-06-22T14:15:00.000Z'
+//   }
+// ];
 

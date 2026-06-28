@@ -106,6 +106,49 @@ export default function App() {
     setCurrentUser(getCurrentUser());
   }, []);
 
+  // Redirect to /auth if password recovery is active or detected in URL hash or query string
+  useEffect(() => {
+    try {
+      const hash = window.location.hash;
+      const search = window.location.search;
+      
+      const isRecovery = hash.includes('type=recovery') || 
+                         hash.includes('access_token=') || 
+                         search.includes('type=recovery');
+
+      if (isRecovery && currentPage !== 'auth') {
+        console.log('Detected recovery mode redirect, navigating to auth/reset...');
+        let emailVal = '';
+        const emailMatch = hash.match(/email=([^&]*)/) || search.match(/email=([^&]*)/);
+        if (emailMatch && emailMatch[1]) {
+          emailVal = `&email=${emailMatch[1]}`;
+        }
+        navigate(`/auth?type=recovery${emailVal}`);
+      }
+    } catch (e) {
+      console.warn('Error checking recovery URL params:', e);
+    }
+  }, [location.pathname, location.hash, currentPage, navigate]);
+
+  // Handle live Supabase PASSWORD_RECOVERY events
+  useEffect(() => {
+    if (!supabase) return;
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      console.log('Supabase Auth Event in App:', event);
+      if (event === 'PASSWORD_RECOVERY') {
+        const email = session?.user?.email || '';
+        const emailQuery = email ? `&email=${encodeURIComponent(email)}` : '';
+        console.log('PASSWORD_RECOVERY event received, navigating to reset password form.');
+        navigate(`/auth?type=recovery${emailQuery}`);
+      }
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, [navigate]);
+
   const handleAuthSuccess = (user: UserProfile) => {
     setCurrentUser(user);
     // If navigating on auth voluntarily, go back, otherwise unlock Page

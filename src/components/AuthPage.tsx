@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Lock, User, Phone, Sparkles, AlertCircle, ChevronRight, CheckCircle, ArrowLeft, KeyRound } from 'lucide-react';
-import { signInUser, signUpUser, sendResetLink, updateUserPassword } from '../supabaseClient';
+import { signInUser, signUpUser, sendResetLink, updateUserPassword, supabase } from '../supabaseClient';
 import { UserProfile } from '../types';
 
 interface AuthPageProps {
@@ -27,22 +27,63 @@ export default function AuthPage({ onAuthSuccess, redirectReason, onBackToHome }
   const [simulatedLink, setSimulatedLink] = useState<string | null>(null);
   const [showBypass, setShowBypass] = useState(false);
 
-  // Auto-detect magic link recovery parameter from URL
-  useEffect(() => {
-    try {
-      const params = new URLSearchParams(window.location.search);
-      const typeParam = params.get('type');
-      const emailParam = params.get('email');
-      if (typeParam === 'recovery' && emailParam) {
-        setMode('reset');
-        setEmail(emailParam);
-        setSuccessMsg('Recovery session active. Please specify your new password.');
-        // Clean URL cleanly
-        window.history.replaceState({}, document.title, window.location.pathname);
-      }
-    } catch (e) {
-      console.warn('Could not parse window query params', e);
+  // Parse parameters from both window.location.search and window.location.hash
+  const getQueryParam = (name: string): string | null => {
+    // 1. Check window.location.search
+    const searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.has(name)) {
+      return searchParams.get(name);
     }
+    // 2. Check window.location.hash query portion (e.g. #/auth?type=recovery)
+    const hash = window.location.hash;
+    const qIndex = hash.indexOf('?');
+    if (qIndex !== -1) {
+      const hashSearchParams = new URLSearchParams(hash.substring(qIndex));
+      if (hashSearchParams.has(name)) {
+        return hashSearchParams.get(name);
+      }
+    }
+    return null;
+  };
+
+  // Auto-detect magic link recovery parameter from URL and active Supabase session
+  useEffect(() => {
+    const detectRecovery = async () => {
+      try {
+        const typeParam = getQueryParam('type');
+        const emailParam = getQueryParam('email');
+        
+        let isRecovery = typeParam === 'recovery';
+        let recoveryEmail = emailParam || '';
+
+        // Also inspect live Supabase recovery sessions
+        if (supabase) {
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session?.user) {
+            recoveryEmail = session.user.email || recoveryEmail;
+            if (window.location.hash.includes('type=recovery') || window.location.hash.includes('access_token=')) {
+              isRecovery = true;
+            }
+          }
+        }
+
+        if (isRecovery) {
+          setMode('reset');
+          if (recoveryEmail) {
+            setEmail(recoveryEmail);
+          }
+          setSuccessMsg('Recovery session active. Please specify your new password.');
+          
+          // Clear query/hash recovery params cleanly to maintain visual security
+          const cleanHash = window.location.hash.split('?')[0];
+          window.history.replaceState({}, document.title, window.location.pathname + (cleanHash !== '#' ? cleanHash : ''));
+        }
+      } catch (e) {
+        console.warn('Could not parse recovery session:', e);
+      }
+    };
+
+    detectRecovery();
   }, []);
 
   const handleTabChange = (newMode: 'login' | 'register') => {
