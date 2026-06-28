@@ -1,0 +1,11 @@
+{
+  "name": "Body and Beauty Studio",
+  "description": "Premium luxury beauty, bridal hair, makeup, styling services, club membership, and admin management console with secure Supabase databases.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

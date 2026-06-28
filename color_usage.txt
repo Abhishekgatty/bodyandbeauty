@@ -1,0 +1,739 @@
+src/components/Footer.tsx:18:    <footer className="bg-[#0F5232] border-t border-[#214F39] pt-16 pb-8" id="footer-section">
+src/components/Footer.tsx:29:          <div className="flex items-center gap-3 pt-2 text-[#DDB93B]">
+src/components/Footer.tsx:30:            <span className="text-[10px] tracking-widest font-mono uppercase bg-[#0F5232]/30 px-3 py-1.5 border border-[#DDB93B]/20">
+src/components/Footer.tsx:38:          <h4 className="font-serif-luxury text-sm text-[#DDB93B] tracking-[0.2em] font-semibold uppercase">EXPERIENCES</h4>
+src/components/Footer.tsx:65:          <h4 className="font-serif-luxury text-sm text-[#DDB93B] tracking-[0.2em] font-semibold uppercase">SALON CYCLE</h4>
+src/components/Footer.tsx:68:              <Clock className="h-4 w-4 text-[#DDB93B] shrink-0" />
+src/components/Footer.tsx:80:          <h4 className="font-serif-luxury text-sm text-[#DDB93B] tracking-[0.2em] font-semibold uppercase">STUDIO LOUNGE</h4>
+src/components/Footer.tsx:83:              <MapPin className="h-4 w-4 text-[#DDB93B] shrink-0 mt-1" />
+src/components/Footer.tsx:89:              <Phone className="h-4 w-4 text-[#DDB93B]" />
+src/components/Footer.tsx:93:              <Mail className="h-4 w-4 text-[#DDB93B]" />
+src/components/Footer.tsx:109:            className="flex items-center gap-1.5 px-3 py-1.5 bg-[#214F39]/50 border border-[#DDB93B]/20 hover:border-[#DDB93B]/50 transition-all text-[9px] uppercase font-bold tracking-wider cursor-pointer text-white/80 hover:text-white"
+src/components/Footer.tsx:125:          <button onClick={() => onNavigate('admin')} className="hover:text-[#DDB93B] tracking-wider transition-all uppercase font-bold cursor-pointer">
+src/components/AdminDashboard.tsx:506:        <div className="bg-[#0b0f0b] border border-[#DDB93B] p-8 text-center space-y-6">
+src/components/AdminDashboard.tsx:507:          <div className="text-3xl font-serif-luxury text-[#DDB93B] tracking-widest font-black">🔒 ACCESS GATE</div>
+src/components/AdminDashboard.tsx:519:                className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-center text-white focus:outline-none focus:border-[#DDB93B]"
+src/components/AdminDashboard.tsx:528:              className="w-full py-2.5 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/25 transition-all cursor-pointer"
+src/components/AdminDashboard.tsx:549:            <span className="p-2.5 bg-red-600/30 border border-red-500/40 text-[#DDB93B] rounded-full flex items-center justify-center animate-bounce">
+src/components/AdminDashboard.tsx:553:              <h3 className="font-extrabold uppercase tracking-wider text-xs sm:text-sm flex items-center gap-2 text-[#DDB93B]">
+src/components/AdminDashboard.tsx:575:          <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-extrabold flex items-center gap-1.5">
+src/components/AdminDashboard.tsx:576:            <Sparkles className="h-3 w-3 text-[#DDB93B]" /> administrative operation control
+src/components/AdminDashboard.tsx:589:                : 'bg-[#0f1511] border-[#DDB93B]/30 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent'
+src/components/AdminDashboard.tsx:601:            className="px-3 py-2 bg-[#0F5232]/10 border border-[#DDB93B]/40 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black transition-all text-[10px] uppercase font-bold tracking-widest cursor-pointer flex items-center gap-1"
+src/components/AdminDashboard.tsx:609:            className="px-4 py-2 bg-black border border-gray-700 hover:border-[#DDB93B] hover:text-[#DDB93B] text-[#DDB93B] text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/components/AdminDashboard.tsx:638:                ? 'text-[#DDB93B] border-[#DDB93B] bg-white/5'
+src/components/AdminDashboard.tsx:639:                : 'text-gray-500 border-transparent hover:text-[#DDB93B]'
+src/components/AdminDashboard.tsx:675:                    className="px-4 py-2 border border-[#DDB93B]/50 hover:bg-[#DDB93B]/10 text-[#DDB93B] text-[10px] uppercase font-bold tracking-widest cursor-pointer flex items-center gap-1.5"
+src/components/AdminDashboard.tsx:682:                    className="px-4 py-2 border border-[#DDB93B]/50 hover:bg-[#DDB93B]/10 text-[#DDB93B] text-[10px] uppercase font-bold tracking-widest cursor-pointer"
+src/components/AdminDashboard.tsx:688:                    className="px-4 py-2 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer"
+src/components/AdminDashboard.tsx:697:                <div className="w-full mt-4 p-4 bg-black border border-[#DDB93B]/25 text-left space-y-4 font-mono text-[11px] block">
+src/components/AdminDashboard.tsx:699:                    <span className="text-[#DDB93B] font-bold uppercase tracking-wider text-[10px]">Quick SQL Installation script:</span>
+src/components/AdminDashboard.tsx:702:                      className="flex items-center gap-1 bg-[#0F5232]/40 border border-[#DDB93B]/35 text-[#DDB93B] px-2.5 py-1 text-[10px] hover:bg-[#DDB93B] hover:text-black transition-all cursor-pointer"
+src/components/AdminDashboard.tsx:721:            <div className="bg-[#0b0f0b] border border-[#DDB93B]/50 p-6 space-y-4 animate-fade-in relative overflow-hidden" id="admin-alerts-hub">
+src/components/AdminDashboard.tsx:723:              <div className="absolute top-0 right-0 h-16 w-16 bg-gradient-to-br from-transparent to-[#DDB93B]/5 pointer-events-none" />
+src/components/AdminDashboard.tsx:731:                  <h4 className="font-serif-luxury text-sm text-[#DDB93B] tracking-wider font-extrabold flex items-center gap-2 uppercase">
+src/components/AdminDashboard.tsx:742:                  className="text-[9px] uppercase font-bold tracking-widest text-amber-500 hover:text-[#DDB93B] transition-colors cursor-pointer border border-amber-950/40 px-2.5 py-1 bg-amber-950/10"
+src/components/AdminDashboard.tsx:752:                    className="p-3.5 bg-black border border-white/5 hover:border-[#DDB93B]/35 transition-all text-xs flex flex-col justify-between gap-3 relative group"
+src/components/AdminDashboard.tsx:756:                        <span className="font-semibold text-white group-hover:text-[#DDB93B] transition-colors">{apt.name}</span>
+src/components/AdminDashboard.tsx:769:                        className="text-[9px] uppercase font-bold tracking-wider text-[#DDB93B] hover:underline cursor-pointer flex items-center gap-1"
+src/components/AdminDashboard.tsx:791:              <p className="font-serif-luxury text-3xl text-[#DDB93B] font-bold">{activeClientsCount}</p>
+src/components/AdminDashboard.tsx:812:              <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Services Distribution By Type</h3>
+src/components/AdminDashboard.tsx:820:                    <Bar dataKey="count" fill="#DDB93B" />
+src/components/AdminDashboard.tsx:828:                <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Upcoming Verified Actions</h3>
+src/components/AdminDashboard.tsx:835:                <span className="text-[#DDB93B] uppercase font-bold block">💡 Client Desk Guidelines:</span>
+src/components/AdminDashboard.tsx:849:            <h3 className="font-serif-luxury text-xl text-[#0F5232] font-bold tracking-wide uppercase">Client Bookings ledger</h3>
+src/components/AdminDashboard.tsx:863:                      ? 'border-[#DDB93B] bg-amber-950/20 shadow-[0_0_25px_rgba(212,175,55,0.2)] ring-2 ring-[#DDB93B]/40' 
+src/components/AdminDashboard.tsx:870:                            : 'border-[#DDB93B]/35 bg-[#050805]'
+src/components/AdminDashboard.tsx:880:                          <span className="text-[8px] bg-[#DDB93B] text-black font-extrabold px-2 py-0.5 animate-pulse flex items-center gap-1 uppercase tracking-widest">
+src/components/AdminDashboard.tsx:891:                          'bg-[#DDB93B]/20 text-[#DDB93B]'
+src/components/AdminDashboard.tsx:910:                          className="px-3 py-1.5 border border-[#DDB93B]/40 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black text-[10px] font-bold uppercase tracking-widest cursor-pointer"
+src/components/AdminDashboard.tsx:943:                    <p>💇‍♀️ <strong className="text-[#DDB93B]">Aura Desired Care:</strong> {apt.serviceName}</p>
+src/components/AdminDashboard.tsx:944:                    <p>📅 <strong className="text-[#DDB93B]">Timing Coordinates:</strong> {apt.preferredDate} at {apt.preferredTime}</p>
+src/components/AdminDashboard.tsx:945:                    <p>⭐ <strong className="text-[#DDB93B]">Stylist Preferred:</strong> {apt.stylistPreference}</p>
+src/components/AdminDashboard.tsx:946:                    <p>⏱ <strong className="text-[#DDB93B]">Requested:</strong> {new Date(apt.createdAt).toLocaleString()}</p>
+src/components/AdminDashboard.tsx:950:                    <p className="p-3 bg-[#0a0c0a] border-l-2 border-[#DDB93B] font-mono text-[11px] leading-relaxed text-gray-400">
+src/components/AdminDashboard.tsx:959:                      className="bg-[#0f1511] border border-[#DDB93B]/45 p-4 space-y-4 animate-fade-in"
+src/components/AdminDashboard.tsx:961:                      <span className="text-[10px] uppercase font-black tracking-widest text-[#DDB93B] block">Reschedule timing console</span>
+src/components/AdminDashboard.tsx:994:                          className="px-4 py-1.5 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-white text-[10px] uppercase font-bold tracking-widest cursor-pointer"
+src/components/AdminDashboard.tsx:1017:            <h3 className="font-serif-luxury text-xl text-[#0F5232] font-bold tracking-wide uppercase">Styling Customer Profiles</h3>
+src/components/AdminDashboard.tsx:1067:                  className="bg-black border border-gray-700 px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/components/AdminDashboard.tsx:1076:                  className="bg-black border border-gray-700 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B] w-full h-[33px] cursor-pointer"
+src/components/AdminDashboard.tsx:1094:                  className="bg-black border border-gray-700 px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/components/AdminDashboard.tsx:1106:                  className="bg-black border border-gray-700 px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/components/AdminDashboard.tsx:1118:                  className="bg-black border border-gray-700 p-3 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full resize-none font-sans"
+src/components/AdminDashboard.tsx:1125:                  className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/components/AdminDashboard.tsx:1135:            <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Procedure catalog in file</h3>
+src/components/AdminDashboard.tsx:1141:                    <span className="text-[8px] tracking-widest text-[#DDB93B] uppercase font-bold">{svc.category}</span>
+src/components/AdminDashboard.tsx:1182:                  className="bg-black border border-gray-700 px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/components/AdminDashboard.tsx:1194:                  className="bg-black border border-gray-700 px-3 py-2 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/components/AdminDashboard.tsx:1203:                  className="bg-black border border-gray-700 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B] w-full h-[33px] cursor-pointer"
+src/components/AdminDashboard.tsx:1222:                  className="bg-black border border-gray-700 p-3 text-white placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full resize-none font-sans"
+src/components/AdminDashboard.tsx:1229:                  className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/components/AdminDashboard.tsx:1239:            <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Gallery Portraits in file</h3>
+src/components/AdminDashboard.tsx:1253:                      <span className="text-[8px] uppercase tracking-widest text-[#DDB93B] font-bold block">{item.category}</span>
+src/components/AdminDashboard.tsx:1284:          <div className="border border-[#DDB93B]/20 bg-[#070a07] p-6 relative">
+src/components/AdminDashboard.tsx:1285:            <div className="absolute top-1 left-1 bottom-1 right-1 border border-[#DDB93B]/5 pointer-events-none" />
+src/components/AdminDashboard.tsx:1288:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">capacity limits</span>
+src/components/AdminDashboard.tsx:1317:                className="px-4 py-2 bg-black border border-[#DDB93B]/35 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black text-[9px] uppercase font-black tracking-widest cursor-pointer transition-all"
+src/components/AdminDashboard.tsx:1387:                  className="bg-black border border-gray-700 px-3 py-2 text-xs text-white focus:outline-none focus:border-[#DDB93B] flex-1 font-mono"
+src/components/AdminDashboard.tsx:1391:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-white text-[10px] uppercase font-bold tracking-widest cursor-pointer flex items-center justify-center gap-1.5 transition-colors"
+src/components/AdminDashboard.tsx:1401:            <h4 className="text-[10px] uppercase font-black text-[#DDB93B] tracking-widest mb-4">Active Timing Coordinates ({bookingSlots.length})</h4>
+src/components/AdminDashboard.tsx:1411:                    className="p-3 bg-black border border-gray-800 flex justify-between items-center group hover:border-[#DDB93B]/50 transition-colors"
+src/components/AdminDashboard.tsx:1454:            className="pointer-events-auto bg-black/95 border border-[#DDB93B] p-4 shadow-[0_4px_30px_rgba(212,175,55,0.18)] flex flex-col gap-3 animate-fade-in transition-all relative overflow-hidden group text-left"
+src/components/AdminDashboard.tsx:1457:            <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#DDB93B] to-transparent" />
+src/components/AdminDashboard.tsx:1462:                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#DDB93B] opacity-75"></span>
+src/components/AdminDashboard.tsx:1463:                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#DDB93B]"></span>
+src/components/AdminDashboard.tsx:1465:                <span className="text-[9px] uppercase tracking-widest font-extrabold text-[#DDB93B] font-mono">
+src/components/AdminDashboard.tsx:1471:                className="text-gray-500 hover:text-[#DDB93B] transition-colors cursor-pointer"
+src/components/AdminDashboard.tsx:1479:                Client <strong className="text-[#DDB93B]">{toast.appointment.name}</strong> has just booked a session!
+src/components/AdminDashboard.tsx:1494:                className="px-3 py-1 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black text-[9px] uppercase font-bold tracking-widest transition-colors cursor-pointer"
+src/components/AppointmentPath.tsx:221:          <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">Security Priority Gate</span>
+src/components/AppointmentPath.tsx:222:          <h2 className="font-serif-luxury text-2xl sm:text-4xl text-[#0F5232] tracking-widest font-semibold uppercase">Authentication Required</h2>
+src/components/AppointmentPath.tsx:226:          <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-2" />
+src/components/AppointmentPath.tsx:241:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">AURA APPOINTMENT RESERVE</span>
+src/components/AppointmentPath.tsx:242:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">Schedule Aura Visit</h1>
+src/components/AppointmentPath.tsx:246:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/AppointmentPath.tsx:251:        <div className="bg-[#0F5232] border-2 border-[#DDB93B] p-8 text-center space-y-6 animate-fade-in relative overflow-hidden rounded" id="booking-receipt-box">
+src/components/AppointmentPath.tsx:252:          <div className="absolute top-0 right-0 bg-[#DDB93B] text-black text-[9px] uppercase tracking-widest font-black px-4 py-1">
+src/components/AppointmentPath.tsx:259:            <p className="text-[11px] font-mono text-white/80">Receipt Sequence: <span className="text-[#DDB93B] text-sm font-bold">{createdReceipt.id}</span></p>
+src/components/AppointmentPath.tsx:262:          <div className="max-w-md mx-auto border-y border-[#DDB93B]/35 py-6 text-left space-y-3.5 text-xs text-white/90 font-light leading-relaxed">
+src/components/AppointmentPath.tsx:263:            <p>👨‍💼 <strong className="text-[#DDB93B]">Client:</strong> {createdReceipt.name} (Gender: {createdReceipt.gender})</p>
+src/components/AppointmentPath.tsx:264:            <p>📞 <strong className="text-[#DDB93B]">Contact Mobile:</strong> {createdReceipt.phone}</p>
+src/components/AppointmentPath.tsx:265:            <p>💇‍♀️ <strong className="text-[#DDB93B]">Selected Care:</strong> {createdReceipt.serviceName}</p>
+src/components/AppointmentPath.tsx:266:            <p>📅 <strong className="text-[#DDB93B]">Scheduled Day:</strong> {createdReceipt.preferredDate} at {createdReceipt.preferredTime}</p>
+src/components/AppointmentPath.tsx:267:            <p>⭐ <strong className="text-[#DDB93B]">Stylist Preferred:</strong> {createdReceipt.stylistPreference}</p>
+src/components/AppointmentPath.tsx:269:              <p className="p-3 bg-[#0d3b24] border border-[#DDB93B]/30 font-mono text-[11px] text-white/90 leading-normal">
+src/components/AppointmentPath.tsx:281:            className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] font-bold uppercase tracking-widest transition-all cursor-pointer"
+src/components/AppointmentPath.tsx:288:        <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-10 space-y-8 rounded shadow-sm">
+src/components/AppointmentPath.tsx:290:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-widest font-semibold uppercase">The Booking Cabinet</h3>
+src/components/AppointmentPath.tsx:291:            <p className="text-xs text-[#0F5232] font-light mt-1">Please provide accurate contact coordinates for priority response.</p>
+src/components/AppointmentPath.tsx:308:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/components/AppointmentPath.tsx:310:                  <User className="absolute right-3 top-3 h-4 w-4 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:325:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/components/AppointmentPath.tsx:327:                  <Phone className="absolute right-3 top-3 h-4 w-4 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:341:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/components/AppointmentPath.tsx:343:                  <Mail className="absolute right-3 top-3 h-4 w-4 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:354:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/components/AppointmentPath.tsx:369:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/components/AppointmentPath.tsx:387:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/components/AppointmentPath.tsx:406:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] focus:outline-none focus:border-[#DDB93B]"
+src/components/AppointmentPath.tsx:418:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#DDB93B] focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/components/AppointmentPath.tsx:437:                className="w-full bg-black border border-gray-200 p-4 font-sans text-xs text-[#DDB93B] placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] resize-none"
+src/components/AppointmentPath.tsx:448:                className="w-full sm:w-auto px-10 py-3.5 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/35 transition-all text-center cursor-pointer"
+src/components/AppointmentPath.tsx:459:      <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-10 space-y-6 rounded shadow-sm" id="customer-cabinet-section">
+src/components/AppointmentPath.tsx:462:            <h3 className="font-serif-luxury text-lg text-[#0F5232] tracking-widest font-semibold uppercase flex items-center gap-2">
+src/components/AppointmentPath.tsx:463:              <UserCheck className="h-4 w-4 text-[#DDB93B]" /> Client Cabinet & Profile
+src/components/AppointmentPath.tsx:483:                ? 'border-[#0F5232] text-[#0F5232]'
+src/components/AppointmentPath.tsx:487:            <Sparkles className="h-3.5 w-3.5 text-[#DDB93B]" /> My Beauty Profile
+src/components/AppointmentPath.tsx:494:                ? 'border-[#0F5232] text-[#0F5232]'
+src/components/AppointmentPath.tsx:498:            <Calendar className="h-3.5 w-3.5 text-[#DDB93B]" /> Upcoming Visits ({upcomingApts.length})
+src/components/AppointmentPath.tsx:505:                ? 'border-[#0F5232] text-[#0F5232]'
+src/components/AppointmentPath.tsx:509:            <History className="h-3.5 w-3.5 text-[#DDB93B]" /> Previous Appointments ({previousApts.length})
+src/components/AppointmentPath.tsx:517:            <div className="bg-gradient-to-r from-[#0F5232] to-[#1a6642] text-white p-6 sm:p-8 rounded relative overflow-hidden shadow-sm">
+src/components/AppointmentPath.tsx:522:                <span className="text-[10px] tracking-widest text-[#DDB93B] font-bold uppercase block">Royal VIP Resident</span>
+src/components/AppointmentPath.tsx:536:                  <CheckCircle className="h-3.5 w-3.5 text-[#0F5232]" /> Total Sessions
+src/components/AppointmentPath.tsx:544:                  <Scissors className="h-3.5 w-3.5 text-[#0F5232]" /> Preferred Care
+src/components/AppointmentPath.tsx:554:                  <Award className="h-3.5 w-3.5 text-[#0F5232]" /> Favorite Artist
+src/components/AppointmentPath.tsx:564:                  <TrendingUp className="h-3.5 w-3.5 text-[#0F5232]" /> Aesthetic Value
+src/components/AppointmentPath.tsx:566:                <div className="text-xl font-serif-luxury font-bold text-[#0F5232]">
+src/components/AppointmentPath.tsx:577:                <h5 className="text-xs uppercase tracking-widest font-bold text-[#0F5232] border-b border-gray-100 pb-2 flex items-center gap-2">
+src/components/AppointmentPath.tsx:578:                  <User className="h-3.5 w-3.5 text-[#DDB93B]" /> Registry Information
+src/components/AppointmentPath.tsx:603:                  <h5 className="text-xs uppercase tracking-widest font-bold text-[#0F5232] border-b border-gray-100 pb-2 flex items-center gap-2">
+src/components/AppointmentPath.tsx:604:                    <History className="h-3.5 w-3.5 text-[#DDB93B]" /> Last Appointment Summary
+src/components/AppointmentPath.tsx:629:                        <p className="text-[10px] italic text-gray-400 font-mono mt-1 border-l-2 border-[#DDB93B] pl-2">
+src/components/AppointmentPath.tsx:645:                  <div className="bg-[#0F5232]/5 border border-[#0F5232]/20 p-3 rounded text-center mt-2">
+src/components/AppointmentPath.tsx:646:                    <p className="text-[10px] text-[#0F5232] font-semibold uppercase tracking-wider">
+src/components/AppointmentPath.tsx:661:                <Calendar className="h-8 w-8 text-[#DDB93B]/60 mx-auto" />
+src/components/AppointmentPath.tsx:679:                          ? 'border-[#DDB93B] bg-amber-50/20 shadow-md' 
+src/components/AppointmentPath.tsx:687:                            <span className="text-[9px] font-mono tracking-wider font-semibold text-[#DDB93B] uppercase">
+src/components/AppointmentPath.tsx:707:                              <Calendar className="h-3 w-3 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:711:                              <Clock className="h-3 w-3 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:715:                              <User className="h-3 w-3 text-[#0F5232]" />
+src/components/AppointmentPath.tsx:735:                            className="self-start md:self-center flex items-center gap-1.5 px-4 py-2 border border-[#0F5232]/35 hover:border-[#DDB93B] hover:bg-[#DDB93B]/10 rounded text-[11px] font-bold uppercase tracking-wider text-[#0F5232] transition-all cursor-pointer"
+src/components/AppointmentPath.tsx:746:                          className="mt-4 pt-4 border-t border-[#DDB93B]/20 space-y-4 animate-fade-in"
+src/components/AppointmentPath.tsx:749:                            <AlertCircle className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/AppointmentPath.tsx:776:                                className="w-full bg-white border border-gray-300 px-3 py-2 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/components/AppointmentPath.tsx:788:                                className="w-full bg-white border border-gray-300 px-3 py-2 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[34px] cursor-pointer"
+src/components/AppointmentPath.tsx:809:                              className="px-5 py-2 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black text-[10px] uppercase font-bold tracking-wider rounded transition-all flex items-center gap-1 cursor-pointer"
+src/components/AppointmentPath.tsx:837:                <History className="h-8 w-8 text-[#DDB93B]/60 mx-auto" />
+src/components/AppointmentPath.tsx:855:                          <span className="text-[9px] font-mono tracking-wider font-semibold text-[#DDB93B] uppercase">
+src/components/AppointmentPath.tsx:893:                        <span className="text-[11px] font-mono px-3 py-1 bg-white border border-gray-100 rounded text-[#0F5232] font-semibold">
+src/components/Modals.tsx:25:        className="max-w-3xl w-full bg-[#121212] border border-[#DDB93B]/50 rounded-none overflow-hidden relative"
+src/components/Modals.tsx:30:          className="absolute top-4 right-4 p-2 bg-black/85 hover:bg-[#0F5232] hover:text-white text-[#DDB93B] transition-colors border border-[#DDB93B]/30 cursor-pointer text-xs"
+src/components/Modals.tsx:42:        <div className="p-6 space-y-2 border-t border-[#DDB93B]/20 bg-black/95 text-left">
+src/components/Modals.tsx:43:          <span className="text-[10px] text-[#DDB93B] uppercase tracking-widest font-black block">
+src/components/Modals.tsx:59:              className="py-1.5 px-4 bg-[#0F5232] text-white text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/25 hover:bg-[#DDB93B] hover:text-black transition-colors cursor-pointer"
+src/components/Modals.tsx:86:        className="max-w-2xl w-full bg-[#121212] border border-[#DDB93B]/30 my-8 relative overflow-hidden text-left"
+src/components/Modals.tsx:91:          className="absolute top-4 right-4 p-2 bg-black/80 hover:bg-[#0F5232] hover:text-white text-[#DDB93B] border border-white/5 transition-colors z-10 cursor-pointer"
+src/components/Modals.tsx:103:            <span className="text-[9px] uppercase tracking-widest font-black bg-black text-[#DDB93B] px-2.5 py-1">
+src/components/Modals.tsx:121:          <div className="bg-[#0F5232]/10 p-4 border border-[#0F5232]/20 rounded-none text-xs text-center space-y-2 mt-8">
+src/components/Modals.tsx:122:            <span className="text-[#DDB93B] font-semibold block uppercase tracking-widest">Free Consultation</span>
+src/components/Modals.tsx:126:              className="py-1 px-4 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-white border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-all mt-2 cursor-pointer"
+src/components/Modals.tsx:162:        className="max-w-md w-full bg-[#0F5232] border-2 border-[#DDB93B] p-8 text-center relative overflow-hidden rounded"
+src/components/Modals.tsx:167:        <span className="text-xs uppercase tracking-[0.4em] text-[#DDB93B] block mt-1 font-bold text-center">
+src/components/Modals.tsx:176:        <div className="mt-6 p-4 bg-black/30 border border-[#DDB93B]/25 text-left text-xs space-y-3">
+src/components/Modals.tsx:177:          <p className="font-bold text-white uppercase tracking-wider text-center border-b border-[#DDB93B]/10 pb-2 text-[#DDB93B]">Next Steps to claim membership:</p>
+src/components/Modals.tsx:192:            className="py-2.5 px-6 bg-[#DDB93B] text-[#0F5232] hover:bg-white hover:text-[#0F5232] border border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer"
+src/components/AuthPage.tsx:210:      <div className="w-full max-w-md bg-white border border-[#DDB93B]/20 p-8 relative rounded shadow-lg" id="auth-box">
+src/components/AuthPage.tsx:213:        <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/components/AuthPage.tsx:217:          <div className="h-10 w-10 border border-[#DDB93B]/40 flex items-center justify-center mb-3 bg-[#111] animate-pulse">
+src/components/AuthPage.tsx:218:            <Sparkles className="h-4 w-4 text-[#DDB93B]" />
+src/components/AuthPage.tsx:220:          <h2 className="font-serif-deco text-2xl text-[#DDB93B] tracking-widest uppercase">
+src/components/AuthPage.tsx:228:            <div className="mt-4 px-3 py-1.5 bg-[#0F5232]/20 border border-[#DDB93B]/30 text-[#DDB93B] text-xs font-medium uppercase tracking-wider rounded-none">
+src/components/AuthPage.tsx:247:                <p className="text-[10px] text-[#DDB93B] font-bold uppercase tracking-wider">⚡ Immediate Local Bypass Option</p>
+src/components/AuthPage.tsx:254:                  className="w-full py-2 bg-[#DDB93B] hover:bg-white text-black text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer flex items-center justify-center gap-1"
+src/components/AuthPage.tsx:266:            <CheckCircle className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/AuthPage.tsx:268:              <span className="font-bold block uppercase tracking-wider mb-0.5 text-xs text-[#DDB93B]">Authorization Channel</span>
+src/components/AuthPage.tsx:276:          <div className="mb-6 p-4 bg-[#F8F6F2] border border-[#DDB93B]/40 rounded text-left relative z-10 space-y-3">
+src/components/AuthPage.tsx:278:              <span className="inline-block p-1 bg-[#DDB93B]/10 text-[#DDB93B] border border-[#DDB93B]/20 rounded-none">
+src/components/AuthPage.tsx:281:              <p className="text-[11px] font-bold text-[#0F5232] uppercase tracking-wider">Simulated Email Transmitter</p>
+src/components/AuthPage.tsx:289:              className="w-full py-2 bg-[#DDB93B]/10 hover:bg-[#DDB93B]/20 border border-[#DDB93B] text-white text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer flex items-center justify-center gap-1"
+src/components/AuthPage.tsx:291:              <KeyRound className="h-3.5 w-3.5 text-[#DDB93B]" />
+src/components/AuthPage.tsx:307:                mode === 'login' ? 'text-[#DDB93B]' : 'text-gray-500 hover:text-[#0F5232]'
+src/components/AuthPage.tsx:312:                <span className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#DDB93B]" />
+src/components/AuthPage.tsx:320:                mode === 'register' ? 'text-[#DDB93B]' : 'text-gray-500 hover:text-[#0F5232]'
+src/components/AuthPage.tsx:325:                <span className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#DDB93B]" />
+src/components/AuthPage.tsx:341:              className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest text-[#DDB93B] hover:text-white transition-colors border-0 bg-transparent mb-2 cursor-pointer font-bold"
+src/components/AuthPage.tsx:345:            <h3 className="text-sm font-bold uppercase tracking-wider text-[#DDB93B] font-serif-deco">Request Recovery Link</h3>
+src/components/AuthPage.tsx:352:            <h3 className="text-sm font-bold uppercase tracking-wider text-[#DDB93B] font-serif-deco">Reconstitute Passphrase</h3>
+src/components/AuthPage.tsx:367:                  <User className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/components/AuthPage.tsx:374:                    className="w-full bg-white border border-[#DDB93B]/35 px-9 py-2.5 text-xs text-[#1F2937] placeholder-gray-400 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/components/AuthPage.tsx:386:                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/components/AuthPage.tsx:393:                    className="w-full bg-white border border-[#DDB93B]/35 px-9 py-2.5 text-xs text-[#1F2937] placeholder-gray-400 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/components/AuthPage.tsx:407:                  className="w-full bg-white border border-[#DDB93B]/35 px-3 py-2.5 text-xs text-[#1F2937] focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/components/AuthPage.tsx:425:              <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/components/AuthPage.tsx:435:                    ? 'bg-gray-100 border-[#DDB93B]/20 text-gray-500 cursor-not-allowed' 
+src/components/AuthPage.tsx:436:                    : 'bg-white border-[#DDB93B]/35 text-[#1F2937] placeholder-gray-400 focus:outline-none focus:border-[#DDB93B]'
+src/components/AuthPage.tsx:459:                    className="text-[9px] uppercase tracking-wider text-[#DDB93B] hover:text-white transition-colors bg-transparent border-0 cursor-pointer font-semibold"
+src/components/AuthPage.tsx:466:                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/components/AuthPage.tsx:473:                  className="w-full bg-white border border-[#DDB93B]/35 px-9 py-2.5 text-xs text-[#1F2937] placeholder-gray-400 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/components/AuthPage.tsx:484:              className={`w-full py-3 text-[10px] uppercase tracking-widest font-bold flex items-center justify-center gap-2 group transition-all text-white border border-[#DDB93B]/40 ${
+src/components/AuthPage.tsx:487:                  : 'bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black hover:border-transparent cursor-pointer'
+src/components/AuthPage.tsx:511:              className="text-[9px] uppercase tracking-widest text-[#DDB93B] hover:text-white transition-colors bg-transparent border-0 cursor-pointer font-bold"
+src/components/GalleryPath.tsx:75:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">STUDIO PORTFOLIO</span>
+src/components/GalleryPath.tsx:76:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">The Art Gallery</h1>
+src/components/GalleryPath.tsx:80:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/GalleryPath.tsx:91:                ? 'bg-[#DDB93B] border-transparent text-black'
+src/components/GalleryPath.tsx:92:                : 'text-gray-500 bg-transparent border-gray-200 hover:border-gray-500 hover:text-[#0F5232]'
+src/components/GalleryPath.tsx:107:              className="bg-white border border-[#DDB93B]/20 overflow-hidden hover:border-[#DDB93B]/60 hover:shadow-lg cursor-pointer group transition-all rounded"
+src/components/GalleryPath.tsx:116:                  <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-black bg-black/60 px-2 py-1 align-top self-start">
+src/components/GalleryPath.tsx:133:              <div className="p-4 flex justify-between items-center bg-white border-t border-[#DDB93B]/15">
+src/components/GalleryPath.tsx:141:                    className="py-1.5 px-3 bg-black border border-[#DDB93B]/50 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[9px] uppercase font-bold tracking-widest transition-colors cursor-pointer inline-flex items-center gap-1 z-10"
+src/components/GalleryPath.tsx:151:        <div className="text-center py-24 bg-white border border-[#DDB93B]/20 rounded">
+src/components/GalleryPath.tsx:159:          <div className="w-full max-w-lg bg-white border border-[#DDB93B]/30 p-6 sm:p-8 relative rounded shadow-[0_0_80px_rgba(212,175,55,0.08)] my-8">
+src/components/GalleryPath.tsx:160:            <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/components/GalleryPath.tsx:164:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">admin console</span>
+src/components/GalleryPath.tsx:165:                <h4 className="font-serif-luxury text-lg text-[#0F5232] font-semibold uppercase tracking-wider">Edit Portrait & Image</h4>
+src/components/GalleryPath.tsx:169:                className="p-1 border border-gray-200 hover:border-[#DDB93B] text-gray-500 hover:text-[#DDB93B] cursor-pointer"
+src/components/GalleryPath.tsx:189:                  className="w-full bg-white border border-[#DDB93B]/35 px-3 py-2 text-[#1F2937] focus:outline-none focus:border-[#DDB93B] rounded-none"
+src/components/GalleryPath.tsx:200:                  className="w-full bg-white border border-[#DDB93B]/35 px-3 py-2 text-[#1F2937] focus:outline-none focus:border-[#DDB93B] rounded-none"
+src/components/GalleryPath.tsx:209:                  className="w-full bg-white border border-[#DDB93B]/35 px-3 py-2 text-[#1F2937] focus:outline-none focus:border-[#DDB93B] h-[33px] cursor-pointer rounded-none"
+src/components/GalleryPath.tsx:227:                  className="w-full bg-white border border-[#DDB93B]/35 p-3 text-[#1F2937] focus:outline-none focus:border-[#DDB93B] resize-none rounded-none"
+src/components/GalleryPath.tsx:235:                  className="px-5 py-2 border border-gray-200 hover:border-[#DDB93B] text-gray-500 hover:text-[#DDB93B] text-[10px] uppercase font-bold tracking-widest cursor-pointer"
+src/components/GalleryPath.tsx:242:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-white text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer flex items-center gap-1"
+src/components/Forms.tsx:87:      <div className="max-w-2xl mx-auto bg-[#0F5232] border border-[#DDB93B]/50 p-8 text-center relative overflow-hidden rounded">
+src/components/Forms.tsx:89:        <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#DDB93B] via-white to-[#DDB93B]" />
+src/components/Forms.tsx:92:          <div className="p-4 bg-white/10 border border-[#DDB93B]/40 text-[#DDB93B] rounded-full">
+src/components/Forms.tsx:93:            <CheckCircle className="h-10 w-10 text-[#DDB93B]" />
+src/components/Forms.tsx:97:        <span className="text-xs uppercase tracking-[0.4em] text-[#DDB93B]">Reservation Confirmed</span>
+src/components/Forms.tsx:105:        <div className="mt-8 p-6 bg-white border border-[#DDB93B]/25 text-left space-y-4">
+src/components/Forms.tsx:106:          <div className="flex justify-between items-center pb-3 border-b border-[#DDB93B]/15">
+src/components/Forms.tsx:109:              <span className="text-sm font-semibold text-[#DDB93B] font-mono uppercase">{createdBooking.id}</span>
+src/components/Forms.tsx:129:                <Calendar className="h-3 w-3 text-[#DDB93B]" /> {createdBooking.preferredDate}
+src/components/Forms.tsx:135:                <Clock className="h-3 w-3 text-[#DDB93B]" /> {createdBooking.preferredTime}
+src/components/Forms.tsx:141:            <div className="pt-3 border-t border-[#DDB93B]/15 flex justify-between items-center">
+src/components/Forms.tsx:150:          <p className="font-bold text-[#DDB93B] uppercase tracking-wider mb-1">Getting to the Studio:</p>
+src/components/Forms.tsx:170:            className="py-3 px-6 bg-[#DDB93B] text-black border border-transparent hover:bg-white hover:text-black text-xs uppercase tracking-widest font-bold transition-all duration-300 cursor-pointer"
+src/components/Forms.tsx:180:    <form onSubmit={handleSubmit} className="max-w-3xl mx-auto bg-white border border-[#DDB93B]/20 p-6 sm:p-10 relative rounded shadow-sm">
+src/components/Forms.tsx:182:        <Sparkles className="h-32 w-32 text-[#DDB93B]" />
+src/components/Forms.tsx:198:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Full Name <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:200:            <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#DDB93B]/60" />
+src/components/Forms.tsx:207:              className="w-full bg-white/60 border border-gray-800 focus:border-[#DDB93B] outline-none py-3 pl-10 pr-4 text-gray-900 text-sm transition-colors"
+src/components/Forms.tsx:215:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Phone Number <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:217:            <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[#DDB93B]/60" />
+src/components/Forms.tsx:224:              className="w-full bg-white/60 border border-gray-800 focus:border-[#DDB93B] outline-none py-3 pl-10 pr-4 text-gray-900 text-sm transition-colors"
+src/components/Forms.tsx:232:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Email Address <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:239:            className="w-full bg-white/60 border border-gray-800 focus:border-[#DDB93B] outline-none py-3 px-4 text-gray-900 text-sm transition-colors"
+src/components/Forms.tsx:255:                    ? 'bg-[#0F5232]/30 border-[#DDB93B] text-[#DDB93B]'
+src/components/Forms.tsx:267:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Desired Salon Therapy <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:272:              className="w-full bg-white border border-gray-800 focus:border-[#DDB93B] outline-none py-3 px-4 text-gray-900 text-sm appearance-none cursor-pointer"
+src/components/Forms.tsx:281:            <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#DDB93B]">
+src/components/Forms.tsx:286:            <div className="bg-[#0F5232]/5 p-3.5 border border-[#0F5232]/25 text-xs text-gray-500 leading-snug">
+src/components/Forms.tsx:287:              <span className="text-[#DDB93B] font-semibold block mb-1">Estimated Duration: {selectedServiceDetails.duration}</span>
+src/components/Forms.tsx:295:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Preferred Date <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:303:              className="w-full bg-white/60 border border-gray-800 focus:border-[#DDB93B] outline-none py-3 px-4 text-gray-900 text-sm transition-colors cursor-pointer"
+src/components/Forms.tsx:311:          <label className="text-xs text-gray-600 font-semibold uppercase tracking-wider block">Preferred Time Slot <span className="text-[#DDB93B]">*</span></label>
+src/components/Forms.tsx:317:              className="w-full bg-white border border-gray-800 focus:border-[#DDB93B] outline-none py-3 px-4 text-gray-900 text-sm appearance-none cursor-pointer"
+src/components/Forms.tsx:325:            <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#DDB93B]">
+src/components/Forms.tsx:338:              className="w-full bg-white border border-gray-800 focus:border-[#DDB93B] outline-none py-3 px-4 text-gray-900 text-sm appearance-none cursor-pointer"
+src/components/Forms.tsx:345:            <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#DDB93B]">
+src/components/Forms.tsx:359:            className="w-full bg-white/60 border border-gray-800 focus:border-[#DDB93B] outline-none p-4 text-gray-900 text-sm transition-colors resize-none"
+src/components/Forms.tsx:373:          className="w-full sm:w-auto py-3.5 px-8 bg-[#0F5232] text-white border border-[#DDB93B]/45 hover:bg-[#DDB93B] hover:text-black font-black uppercase text-xs tracking-widest transition-all duration-300 shadow-md cursor-pointer"
+src/components/Forms.tsx:405:    <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-8 rounded shadow-sm">
+src/components/Forms.tsx:408:          <div className="p-3 bg-[#0F5232]/10 border border-[#DDB93B]/35 inline-block text-[#DDB93B] rounded-full">
+src/components/Forms.tsx:409:            <CheckCircle className="h-8 w-8 text-[#0F5232]" />
+src/components/Forms.tsx:411:          <h4 className="font-serif-luxury text-xl text-[#0F5232] font-semibold">Inquiry Dispatched Successfully</h4>
+src/components/Forms.tsx:418:          <h3 className="font-serif-luxury text-xl text-[#0F5232] tracking-wide font-semibold uppercase">Bespoke Inquiry Form</h3>
+src/components/Forms.tsx:428:              className="w-full bg-white border border-[#DDB93B]/30 focus:border-[#DDB93B] p-3 text-[#1F2937] placeholder-gray-400 text-sm outline-none transition-colors rounded-none"
+src/components/Forms.tsx:441:              className="w-full bg-white border border-[#DDB93B]/30 focus:border-[#DDB93B] p-3 text-[#1F2937] placeholder-gray-400 text-sm outline-none transition-colors rounded-none"
+src/components/Forms.tsx:453:              className="w-full bg-white border border-[#DDB93B]/30 focus:border-[#DDB93B] p-3 text-[#1F2937] placeholder-gray-400 text-sm outline-none transition-colors rounded-none"
+src/components/Forms.tsx:466:              className="w-full bg-white border border-[#DDB93B]/30 focus:border-[#DDB93B] p-4 text-[#1F2937] placeholder-gray-400 text-sm outline-none transition-colors resize-none rounded-none"
+src/components/Forms.tsx:474:            className="w-full py-3 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black font-black uppercase text-xs tracking-widest border border-transparent transition-all cursor-pointer rounded-none"
+src/components/Forms.tsx:501:    <div className="bg-[#0F5232] border-2 border-[#DDB93B] p-6 sm:p-10 relative overflow-hidden rounded shadow-lg">
+src/components/Forms.tsx:504:          <div className="inline-block p-4 bg-white/10 text-[#DDB93B] border border-[#DDB93B] rounded-full animate-bounce">
+src/components/Forms.tsx:507:          <h4 className="font-serif-luxury text-2xl text-[#DDB93B] font-semibold font-serif uppercase tracking-widest">Bridal File Initialized</h4>
+src/components/Forms.tsx:509:            Beautiful! Shubha, our principal founder, has received your deluxe bridal blueprint. A senior wedding counselor will contact you at <span className="text-[#DDB93B] font-bold">{phone}</span> within 4 hours to arrange your complimentary mock trail and coffee discussion.
+src/components/Forms.tsx:520:            className="py-2.5 px-6 border border-[#DDB93B] text-[#DDB93B] hover:bg-white hover:text-black hover:border-transparent transition-all uppercase tracking-widest text-[10px] font-bold cursor-pointer rounded-none"
+src/components/Forms.tsx:527:          <div className="border-b border-[#DDB93B]/30 pb-4">
+src/components/Forms.tsx:528:            <span className="text-[10px] uppercase tracking-[0.3em] text-[#DDB93B] block font-bold">Custom Bridal Consultation</span>
+src/components/Forms.tsx:535:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Bride's Full Name *</label>
+src/components/Forms.tsx:542:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] placeholder-gray-400 text-xs outline-none rounded-none"
+src/components/Forms.tsx:548:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Contact Number *</label>
+src/components/Forms.tsx:555:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] placeholder-gray-400 text-xs outline-none rounded-none"
+src/components/Forms.tsx:561:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Wedding Ceremony Date *</label>
+src/components/Forms.tsx:567:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] text-xs outline-none cursor-pointer rounded-none"
+src/components/Forms.tsx:573:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Ceremony Venue / City</label>
+src/components/Forms.tsx:579:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] placeholder-gray-400 text-xs outline-none rounded-none"
+src/components/Forms.tsx:585:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Style Preference</label>
+src/components/Forms.tsx:589:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] text-xs outline-none cursor-pointer rounded-none h-[38px]"
+src/components/Forms.tsx:600:              <label className="text-[10px] uppercase text-[#DDB93B] block font-bold">Additional Guest Makeups</label>
+src/components/Forms.tsx:604:                className="w-full bg-white border border-[#DDB93B]/35 p-2.5 text-[#1F2937] text-xs outline-none cursor-pointer rounded-none h-[38px]"
+src/components/Forms.tsx:618:            className="w-full py-3.5 bg-[#DDB93B] text-[#0F5232] font-black uppercase text-xs tracking-widest hover:bg-white hover:text-[#0F5232] hover:border-transparent border border-transparent transition-all cursor-pointer shadow-lg rounded-none"
+src/components/FloatingWidgets.tsx:16:        <div className="bg-white border border-[#DDB93B] p-4 text-xs max-w-xs text-left animate-fade-in shadow-2xl space-y-2 text-[#1F2937] rounded">
+src/components/FloatingWidgets.tsx:17:          <p className="font-serif-luxury font-bold text-[#DDB93B] uppercase tracking-wider">ROOPASHREE SALON LOCATION:</p>
+src/components/FloatingWidgets.tsx:29:        className="w-12 h-12 bg-white border border-[#DDB93B]/30 text-gray-900 flex items-center justify-center hover:border-[#DDB93B] transition-all cursor-pointer group rounded shadow-sm"
+src/components/FloatingWidgets.tsx:33:        <MapPin className="h-5 w-5 group-hover:scale-110 transition-transform text-[#DDB93B]" />
+src/components/FloatingWidgets.tsx:39:        className="w-12 h-12 bg-[#0F5232] text-white flex items-center justify-center hover:bg-[#DDB93B] hover:text-black transition-all cursor-pointer group border border-[#DDB93B]/30"
+src/components/FloatingWidgets.tsx:57:          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#DDB93B] opacity-75"></span>
+src/components/FloatingWidgets.tsx:58:          <span className="relative inline-flex rounded-full h-3 w-3 bg-[#DDB93B]"></span>
+src/components/Cards.tsx:19:    <div className="bg-[#F9FBF9]/90 backdrop-blur-sm border border-[#DDB93B]/20 p-8 hover:border-[#DDB93B]/60 transition-all duration-500 group relative overflow-hidden">
+src/components/Cards.tsx:21:      <div className="absolute top-0 right-0 h-16 w-16 bg-[#DDB93B]/5 rounded-bl-full translate-x-4 -translate-y-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-500" />
+src/components/Cards.tsx:23:      <div className="mb-5 inline-block p-3.5 bg-gray-100 text-[#DDB93B] border border-[#DDB93B]/35 group-hover:bg-[#DDB93B] group-hover:text-[#0F5232] group-hover:border-[#DDB93B] transition-all duration-300">
+src/components/Cards.tsx:26:      <h3 className="font-serif text-xl text-gray-900 tracking-wide font-medium mb-3 group-hover:text-[#DDB93B] transition-colors">
+src/components/Cards.tsx:45:    <div className="bg-[#F9FBF9]/90 backdrop-blur-sm border border-[#DDB93B]/20 p-6 hover:border-[#DDB93B]/60 transition-all duration-300 flex flex-col justify-between group h-full">
+src/components/Cards.tsx:48:          <span className="text-[10px] uppercase tracking-widest text-[#DDB93B] bg-[#DDB93B]/15 px-2.5 py-1 font-medium border border-[#DDB93B]/25">
+src/components/Cards.tsx:52:            <Clock className="h-3.5 w-3.5 text-[#DDB93B]" />
+src/components/Cards.tsx:57:        <h4 className="font-serif text-lg text-gray-900 font-medium tracking-wide mt-3 group-hover:text-[#DDB93B] transition-colors">
+src/components/Cards.tsx:66:      <div className="mt-6 pt-4 border-t border-[#DDB93B]/20 flex items-center justify-between">
+src/components/Cards.tsx:69:          <span className="text-xl font-serif text-[#DDB93B] font-bold">
+src/components/Cards.tsx:76:          className="py-2 px-4 bg-transparent text-[#DDB93B] hover:bg-[#DDB93B] hover:text-[#0F5232] text-xs font-semibold uppercase tracking-widest border border-[#DDB93B] transition-all duration-300 flex items-center gap-1.5 cursor-pointer"
+src/components/Cards.tsx:93:    <div className="bg-[#F9FBF9]/90 border border-[#DDB93B]/20 p-8 backdrop-blur-sm hover:border-[#DDB93B]/60 transition-all duration-300 flex flex-col justify-between h-full relative">
+src/components/Cards.tsx:98:            <Star key={i} className="h-4 w-4 fill-[#DDB93B] text-[#DDB93B]" />
+src/components/Cards.tsx:108:      <div className="pt-4 border-t border-[#DDB93B]/15 flex justify-between items-center bg-transparent">
+src/components/Cards.tsx:110:          <h5 className="font-serif text-sm font-semibold tracking-wide text-[#DDB93B]">
+src/components/Cards.tsx:136:        ? 'border-[#DDB93B] shadow-[0_15px_40px_rgba(212,175,55,0.15)] scale-102 z-10' 
+src/components/Cards.tsx:137:        : 'border-[#DDB93B]/20 hover:border-[#DDB93B]/60'
+src/components/Cards.tsx:142:        <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#DDB93B] text-[#0F5232] text-[9px] uppercase tracking-[0.3em] font-black py-1 px-5 shadow-lg border border-white">
+src/components/Cards.tsx:149:          <Sparkles className="h-4.5 w-4.5 text-[#DDB93B]" />
+src/components/Cards.tsx:156:          <span className="text-3xl font-serif font-bold text-[#DDB93B]">₹{membership.price.toLocaleString('en-IN')}</span>
+src/components/Cards.tsx:161:        <p className="text-xs font-semibold uppercase tracking-widest text-[#DDB93B] mb-4">Included Royal Benefits</p>
+src/components/Cards.tsx:166:              <Check className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/Cards.tsx:178:            ? 'bg-[#DDB93B] text-[#0F5232] border-white hover:bg-transparent hover:text-gray-900'
+src/components/Cards.tsx:179:            : 'bg-transparent text-[#DDB93B] border-[#DDB93B] hover:bg-[#DDB93B] hover:text-[#0F5232]'
+src/components/BridalPath.tsx:61:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">ROYAL BRIDAL SANCTUARY</span>
+src/components/BridalPath.tsx:62:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">The Bridal Heritage</h1>
+src/components/BridalPath.tsx:66:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/BridalPath.tsx:78:          <span className="text-[10px] tracking-widest uppercase text-[#DDB93B] font-black block">EXQUISITE BRIDAL ATELIER</span>
+src/components/BridalPath.tsx:97:              className="bg-white border border-[#DDB93B]/20 hover:border-[#DDB93B]/50 p-6 sm:p-8 flex flex-col justify-between transition-all relative overflow-hidden group rounded hover:shadow-lg"
+src/components/BridalPath.tsx:106:                    <h4 className="font-serif-luxury text-lg text-[#0F5232] font-bold leading-tight group-hover:text-[#DDB93B] transition-colors">
+src/components/BridalPath.tsx:113:                  <span className="text-[10px] uppercase tracking-widest text-[#DDB93B] block mb-1">Total Luxury Investment</span>
+src/components/BridalPath.tsx:114:                  <span className="font-serif-luxury text-2xl text-[#0F5232] font-bold">
+src/components/BridalPath.tsx:124:                      <Check className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/BridalPath.tsx:135:                  className="w-full py-3 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-black tracking-widest border border-[#DDB93B]/25 transition-all text-center cursor-pointer"
+src/components/BridalPath.tsx:147:      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#0F5232] border border-[#DDB93B]/30 p-8 sm:p-12 items-center rounded">
+src/components/BridalPath.tsx:149:          <span className="text-[10px] uppercase tracking-[0.2em] text-[#DDB93B] font-bold block">EXPERTISE DETAILS</span>
+src/components/BridalPath.tsx:154:          <ul className="space-y-2 text-xs font-mono text-[#DDB93B]">
+src/components/BridalPath.tsx:156:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/components/BridalPath.tsx:160:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/components/BridalPath.tsx:164:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/components/BridalPath.tsx:169:        <div className="h-64 sm:h-80 overflow-hidden border border-[#DDB93B]/20 relative">
+src/components/Logo.tsx:38:          <stop offset="30%" stopColor="#DDB93B" />
+src/components/Logo.tsx:40:          <stop offset="85%" stopColor="#DDB93B" />
+src/components/Logo.tsx:45:          <stop offset="50%" stopColor="#0F5232" />
+src/components/Logo.tsx:50:          <stop offset="100%" stopColor="#DDB93B" />
+src/components/Logo.tsx:246:        className="font-serif tracking-[0.22em] font-bold leading-none uppercase text-[#DDB93B] select-none text-xl sm:text-2xl"
+src/components/Logo.tsx:248:          color: '#DDB93B',
+src/components/Logo.tsx:259:          <span className="h-[1.5px] w-1.5 rounded-full bg-[#DDB93B] mr-1" />
+src/components/Logo.tsx:260:          <span className="h-[1px] w-8 sm:w-12 bg-[#DDB93B]/60" />
+src/components/Logo.tsx:264:          className="text-[10px] sm:text-xs tracking-[0.45em] uppercase font-bold text-[#DDB93B] leading-none"
+src/components/Logo.tsx:265:          style={{ color: '#DDB93B' }}
+src/components/Logo.tsx:272:          <span className="h-[1px] w-8 sm:w-12 bg-[#DDB93B]/60" />
+src/components/Logo.tsx:273:          <span className="h-[1.5px] w-1.5 rounded-full bg-[#DDB93B] ml-1" />
+src/components/Logo.tsx:279:        <span className="h-[0.5px] w-5 bg-[#DDB93B]/30" />
+src/components/Logo.tsx:290:        <span className="h-[0.5px] w-5 bg-[#DDB93B]/30" />
+src/components/MembershipPath.tsx:33:      icon: <ShieldCheck className="h-6 w-6 text-[#DDB93B]" />,
+src/components/MembershipPath.tsx:66:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">MEMBERSHIP PRIVILEGES</span>
+src/components/MembershipPath.tsx:67:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">The VIP Club Lounge</h1>
+src/components/MembershipPath.tsx:71:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/MembershipPath.tsx:83:                  ? 'bg-[#0F5232] border-2 border-[#DDB93B] gold-glow rounded shadow-xl' 
+src/components/MembershipPath.tsx:84:                  : 'bg-white border border-[#DDB93B]/20 hover:border-[#DDB93B]/50 rounded hover:shadow-lg'
+src/components/MembershipPath.tsx:88:                <div className="absolute top-0 right-0 bg-[#DDB93B] text-black text-[8px] uppercase tracking-widest font-black px-4 py-1">
+src/components/MembershipPath.tsx:111:                    <span className="font-serif-luxury text-3xl text-[#DDB93B] font-bold">
+src/components/MembershipPath.tsx:122:                      <CheckCircle className={`h-4 w-4 shrink-0 mt-0.5 ${isGold ? 'text-[#DDB93B]' : 'text-emerald-500'}`} />
+src/components/MembershipPath.tsx:134:                      ? 'bg-[#DDB93B] text-black hover:bg-white' 
+src/components/MembershipPath.tsx:135:                      : 'bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25'
+src/components/HeroSection.tsx:16:    <div className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-[#0F5232]">
+src/components/HeroSection.tsx:28:        <div className="absolute inset-0 bg-gradient-to-t from-[#071f14] via-[#0F5232]/40 to-transparent" />
+src/components/HeroSection.tsx:30:        <div className="absolute inset-0 bg-radial-at-c from-[#DDB93B]/10 via-transparent to-transparent opacity-80" />
+src/components/HeroSection.tsx:37:        <div className="inline-flex items-center gap-2 px-6 py-2 mb-6 border border-[#DDB93B]/40 bg-[#0F5232]/80 backdrop-blur-md rounded-full animate-pulse shadow-[0_0_15px_rgba(212,175,55,0.15)]">
+src/components/HeroSection.tsx:38:          <Sparkles className="h-4 w-4 text-[#DDB93B]" />
+src/components/HeroSection.tsx:39:          <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] font-semibold text-[#DDB93B]">
+src/components/HeroSection.tsx:47:          <span className="italic text-[#DDB93B] pr-2">Beauty Experience</span>
+src/components/HeroSection.tsx:52:          <span className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#DDB93B]/50" />
+src/components/HeroSection.tsx:53:          <span className="text-[10px] sm:text-xs uppercase tracking-[0.45em] text-[#DDB93B] font-semibold">
+src/components/HeroSection.tsx:56:          <span className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#DDB93B]/50" />
+src/components/HeroSection.tsx:69:            className="w-full sm:w-auto py-3.5 px-10 bg-[#DDB93B] text-[#0F5232] text-xs uppercase tracking-[0.2em] font-bold border border-white hover:bg-transparent hover:text-white hover:border-[#DDB93B] transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.25)] cursor-pointer"
+src/components/HeroSection.tsx:78:            className="w-full sm:w-auto py-3.5 px-10 bg-[#0F5232]/60 text-white text-xs uppercase tracking-[0.2em] font-bold border border-[#DDB93B] hover:bg-white hover:text-[#0F5232] transition-all duration-300 backdrop-blur-sm cursor-pointer"
+src/components/HeroSection.tsx:87:        <div className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 pt-10 border-t border-[#DDB93B]/25 max-w-4xl mx-auto text-left">
+src/components/HeroSection.tsx:95:              <ShieldCheck className="h-5 w-5 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/ContactPath.tsx:32:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">SALON MAP & COORDINATES</span>
+src/components/ContactPath.tsx:33:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">Studio Directions</h1>
+src/components/ContactPath.tsx:37:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/ContactPath.tsx:45:          <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-8 space-y-4 rounded shadow-sm">
+src/components/ContactPath.tsx:46:            <h3 className="font-serif-luxury text-xl text-[#0F5232] tracking-wide font-semibold uppercase">The Sovereign Address</h3>
+src/components/ContactPath.tsx:51:                <MapPin className="h-5 w-5 text-[#DDB93B] shrink-0 mt-0.5" />
+src/components/ContactPath.tsx:53:                  <strong className="text-[#0F5232] text-sm block font-serif-luxury">Roopashree Luxury Salon & Club</strong>
+src/components/ContactPath.tsx:59:                <Phone className="h-5 w-5 text-[#DDB93B]" />
+src/components/ContactPath.tsx:60:                <p>📞 <strong className="text-[#0F5232]">Hotline:</strong> <a href="tel:+919876543210" className="hover:text-[#0F5232] transition-colors">+91 98765 43210</a></p>
+src/components/ContactPath.tsx:64:                <Mail className="h-5 w-5 text-[#DDB93B]" />
+src/components/ContactPath.tsx:65:                <p>📨 <strong className="text-[#0F5232]">Professional Ledger:</strong> <a href="mailto:shubha@roopashreesalon.com" className="hover:text-[#0F5232] transition-colors">shubha@roopashreesalon.com</a></p>
+src/components/ContactPath.tsx:70:          <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-8 space-y-4 rounded shadow-sm">
+src/components/ContactPath.tsx:71:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wide font-semibold uppercase">Operations Cycle</h3>
+src/components/ContactPath.tsx:78:                  <p className="text-[#0F5232]">Open Daily Continuous Slot</p>
+src/components/ContactPath.tsx:87:          <div className="p-6 bg-[#0F5232]/10 border border-[#DDB93B]/35 space-y-3">
+src/components/ContactPath.tsx:88:            <span className="text-[#DDB93B] text-[10px] font-mono uppercase tracking-widest block font-bold">💡 Driving landmarks:</span>
+src/components/ContactPath.tsx:97:        <div className="bg-white border border-[#DDB93B]/20 p-6 sm:p-8 space-y-6 rounded shadow-sm">
+src/components/ContactPath.tsx:99:            <h3 className="font-serif-luxury text-xl text-[#0F5232] tracking-widest font-semibold uppercase">The Inquiry Counter</h3>
+src/components/ContactPath.tsx:104:            <div className="p-8 bg-[#031508] border border-[#DDB93B]/45 text-center space-y-4 animate-fade-in text-[#0F5232]">
+src/components/ContactPath.tsx:106:              <h4 className="font-serif-luxury text-base text-[#DDB93B] font-semibold">Message Dispatched!</h4>
+src/components/ContactPath.tsx:119:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#0F5232] focus:outline-none focus:border-[#DDB93B]"
+src/components/ContactPath.tsx:130:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-[#0F5232] focus:outline-none focus:border-[#DDB93B]"
+src/components/ContactPath.tsx:142:                  className="w-full bg-black border border-gray-200 p-4 text-xs text-[#0F5232] focus:outline-none focus:border-[#DDB93B] resize-none"
+src/components/ContactPath.tsx:148:                className="w-full py-3 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer text-center flex items-center justify-center gap-2 text-[#0F5232]"
+src/components/AboutPath.tsx:14:        <span className="text-xs text-[#DDB93B] uppercase tracking-[0.3em] font-semibold block">About Our Salon</span>
+src/components/AboutPath.tsx:15:        <h1 className="font-serif text-4xl sm:text-5xl text-[#0F5232] font-medium">Understated Elegance & Legacy</h1>
+src/components/AboutPath.tsx:24:          <span className="text-xs uppercase tracking-widest text-[#DDB93B] font-mono font-bold block">The Narrative</span>
+src/components/AboutPath.tsx:25:          <h3 className="font-serif text-3xl text-[#0F5232] font-medium">Bespoke Hospitality since Inception</h3>
+src/components/AboutPath.tsx:33:        <div className="p-1 sm:p-2 bg-gradient-to-tr from-[#DDB93B]/50 to-transparent">
+src/components/AboutPath.tsx:44:        <div className="bg-white border border-[#DDB93B]/20 p-10 relative rounded shadow-sm">
+src/components/AboutPath.tsx:45:          <span className="text-3xl font-serif text-[#DDB93B]/35 absolute right-6 top-6">★</span>
+src/components/AboutPath.tsx:46:          <h4 className="font-serif text-2xl text-[#0F5232] font-medium mb-3">Our Dedicated Mission statement</h4>
+src/components/AboutPath.tsx:51:        <div className="bg-white border border-[#DDB93B]/20 p-10 relative rounded shadow-sm">
+src/components/AboutPath.tsx:52:          <span className="text-3xl font-serif text-[#DDB93B]/35 absolute right-6 top-6">★</span>
+src/components/AboutPath.tsx:53:          <h4 className="font-serif text-2xl text-[#0F5232] font-medium mb-3">Our Vision of the Future</h4>
+src/components/AboutPath.tsx:61:      <div className="bg-[#0F5232]/10 border border-[#DDB93B]/25 p-8 sm:p-12 grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+src/components/AboutPath.tsx:63:          <div className="h-44 w-44 rounded-full border-2 border-[#DDB93B] overflow-hidden mx-auto bg-[#141514] flex items-center justify-center">
+src/components/AboutPath.tsx:67:            <h4 className="font-serif text-xl text-[#0F5232] font-bold">Shubha</h4>
+src/components/AboutPath.tsx:68:            <p className="text-[10px] text-[#DDB93B] uppercase tracking-widest font-mono mt-0.5">Principal Founder & Master Stylist</p>
+src/components/AboutPath.tsx:72:          <span className="text-xs font-semibold uppercase tracking-wider text-[#DDB93B]">The Founder's Message</span>
+src/components/AboutPath.tsx:77:            <div className="text-xs text-gray-500 border-r border-[#DDB93B]/35 pr-4">
+src/components/AboutPath.tsx:78:              <span className="text-lg font-serif font-black text-[#0F5232] block">15+</span> Years Industry Craft
+src/components/AboutPath.tsx:80:            <div className="text-xs text-gray-500 border-r border-[#DDB93B]/35 pr-4">
+src/components/AboutPath.tsx:81:              <span className="text-lg font-serif font-black text-[#0F5232] block">500+</span> Bridal Makeovers Completed
+src/components/AboutPath.tsx:84:              <span className="text-lg font-serif font-black text-[#0F5232] block">Certified</span> by London Hair Academy
+src/components/AboutPath.tsx:94:          <h3 className="font-serif text-3xl text-[#0F5232] font-medium mt-1">Roopashree Premise Highlights</h3>
+src/components/AboutPath.tsx:104:            <div key={id} className="bg-white border border-[#DDB93B]/20 p-6 hover:border-[#DDB93B] transition-colors rounded">
+src/components/AboutPath.tsx:105:              <item.icon className="h-6 w-6 text-[#DDB93B] mb-4" />
+src/components/AboutPath.tsx:106:              <h5 className="font-serif text-sm font-semibold tracking-wide text-[#0F5232] mb-2">{item.title}</h5>
+src/components/ServicesPath.tsx:82:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">AURA TREATMENTS</span>
+src/components/ServicesPath.tsx:83:        <h1 className="font-serif-luxury text-3xl sm:text-5xl text-[#0F5232] tracking-widest font-semibold uppercase">The Service Catalog</h1>
+src/components/ServicesPath.tsx:87:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/ServicesPath.tsx:91:      <div className="bg-white border border-[#DDB93B]/20 p-6 flex flex-col md:flex-row gap-6 justify-between items-center rounded shadow-sm">
+src/components/ServicesPath.tsx:100:                  ? 'bg-[#0F5232] text-white border-transparent'
+src/components/ServicesPath.tsx:101:                  : 'text-gray-600 bg-transparent border-gray-200 hover:border-gray-500 hover:text-[#0F5232]'
+src/components/ServicesPath.tsx:116:            className="w-full bg-white border border-[#DDB93B]/35 px-4 py-2.5 text-xs text-[#1F2937] placeholder-gray-400 focus:outline-none focus:border-[#DDB93B]"
+src/components/ServicesPath.tsx:128:              className="bg-white border border-[#DDB93B]/20 hover:border-[#DDB93B]/50 flex flex-col justify-between p-6 sm:p-8 transition-all relative overflow-hidden group rounded hover:shadow-lg"
+src/components/ServicesPath.tsx:131:              <div className="absolute top-0 right-0 bg-[#0F5232]/50 text-[#DDB93B] text-[8px] uppercase tracking-widest font-black px-3 py-1.5 border-b border-l border-[#DDB93B]/15">
+src/components/ServicesPath.tsx:136:                <span className="text-[9px] font-mono tracking-widest text-[#DDB93B] uppercase block">
+src/components/ServicesPath.tsx:140:                <h3 className="font-serif-luxury text-xl text-[#0F5232] font-semibold tracking-wide leading-tight group-hover:text-[#DDB93B] transition-colors pt-2">
+src/components/ServicesPath.tsx:149:                <div className="flex items-center gap-6 text-[10px] font-mono text-gray-600 pt-2 border-t border-[#DDB93B]/15">
+src/components/ServicesPath.tsx:151:                    <Clock className="h-3.5 w-3.5 text-[#DDB93B]" />
+src/components/ServicesPath.tsx:160:                  <span className="font-serif-luxury text-xl text-[#DDB93B] font-semibold">
+src/components/ServicesPath.tsx:169:                      className="py-2.5 px-3 bg-black border border-[#DDB93B]/50 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer inline-flex items-center gap-1"
+src/components/ServicesPath.tsx:177:                    className="py-2.5 px-4 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer border border-[#DDB93B]/25 inline-flex items-center gap-1"
+src/components/ServicesPath.tsx:188:        <div className="text-center py-20 bg-[#070907] border border-[#DDB93B]/15 space-y-3">
+src/components/ServicesPath.tsx:192:            className="text-[10px] uppercase font-bold text-[#DDB93B] hover:underline"
+src/components/ServicesPath.tsx:200:      <div className="p-6 bg-black border border-[#DDB93B]/15 text-center text-xs text-gray-600 space-y-2">
+src/components/ServicesPath.tsx:201:        <span className="text-[#DDB93B] uppercase tracking-wide font-semibold block">Need Something Custom?</span>
+src/components/ServicesPath.tsx:210:          <div className="w-full max-w-lg bg-[#0b0f0b] border border-[#DDB93B]/40 p-6 sm:p-8 relative rounded-none shadow-[0_0_80px_rgba(212,175,55,0.15)] my-8">
+src/components/ServicesPath.tsx:211:            <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/components/ServicesPath.tsx:215:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">admin console</span>
+src/components/ServicesPath.tsx:220:                className="p-1 border border-white/10 hover:border-[#DDB93B] text-gray-400 hover:text-[#DDB93B] cursor-pointer"
+src/components/ServicesPath.tsx:234:                <label className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-bold block">Service Name</label>
+src/components/ServicesPath.tsx:240:                  className="w-full bg-black border border-white/10 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B]"
+src/components/ServicesPath.tsx:246:                  <label className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-bold block">Category</label>
+src/components/ServicesPath.tsx:250:                    className="w-full bg-black border border-white/10 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B] h-[33px] cursor-pointer"
+src/components/ServicesPath.tsx:261:                  <label className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-bold block">Investment Fee (INR)</label>
+src/components/ServicesPath.tsx:267:                    className="w-full bg-black border border-white/10 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B]"
+src/components/ServicesPath.tsx:273:                <label className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-bold block">Duration Buffer</label>
+src/components/ServicesPath.tsx:279:                  className="w-full bg-black border border-white/10 px-3 py-2 text-white focus:outline-none focus:border-[#DDB93B]"
+src/components/ServicesPath.tsx:284:                <label className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-bold block">Description</label>
+src/components/ServicesPath.tsx:290:                  className="w-full bg-black border border-white/10 p-3 text-white focus:outline-none focus:border-[#DDB93B] resize-none"
+src/components/ServicesPath.tsx:305:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-white text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer flex items-center gap-1"
+src/components/SupabaseDiagnosticModal.tsx:101:      <div className="w-full max-w-2xl bg-[#0c0c0c] border border-[#DDB93B]/30 p-6 sm:p-8 relative rounded-none shadow-[0_0_80px_rgba(212,175,55,0.08)] my-8">
+src/components/SupabaseDiagnosticModal.tsx:104:        <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/components/SupabaseDiagnosticModal.tsx:109:            <span className="text-[9px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold flex items-center gap-1">
+src/components/SupabaseDiagnosticModal.tsx:110:              <Sparkles className="h-3 w-3 animate-pulse text-[#DDB93B]" /> live system telemetry
+src/components/SupabaseDiagnosticModal.tsx:118:            className="p-1.5 border border-white/10 hover:border-[#DDB93B] hover:text-[#DDB93B] text-gray-400 transition-colors cursor-pointer"
+src/components/SupabaseDiagnosticModal.tsx:131:              <div className="h-12 w-12 rounded-none border border-[#DDB93B]/30 flex items-center justify-center shrink-0 bg-black">
+src/components/SupabaseDiagnosticModal.tsx:132:                <RefreshCw className="h-6 w-6 text-[#DDB93B] animate-spin" />
+src/components/SupabaseDiagnosticModal.tsx:182:                  <span className="text-[9px] text-[#DDB93B] block mt-1 font-mono leading-tight">
+src/components/SupabaseDiagnosticModal.tsx:236:                  Your Supabase account is fully linked, but the table entities do not exist yet. Please copy the instant setup SQL script below, open your <span className="text-[#DDB93B] font-semibold">Supabase SQL Editor</span>, paste the script, and click <span className="font-semibold">Run</span>.
+src/components/SupabaseDiagnosticModal.tsx:245:                    className="flex items-center gap-1.5 text-[9px] uppercase tracking-wider text-[#DDB93B] hover:text-white transition-colors border-0 bg-transparent cursor-pointer font-bold"
+src/components/SupabaseDiagnosticModal.tsx:272:                <li>You copied the <span className="font-bold text-[#DDB93B]">Project API URL</span>, not your dashboard URL.</li>
+src/components/SupabaseDiagnosticModal.tsx:273:                <li>You used the <span className="font-bold text-[#DDB93B]">anon (public) API key</span>, not the service_role key.</li>
+src/components/SupabaseDiagnosticModal.tsx:281:              <span className="font-bold text-[#DDB93B] block uppercase tracking-widest text-[10px]">How to Enable Collaborative Live Cloud Mode:</span>
+src/components/SupabaseDiagnosticModal.tsx:286:                <li>Create a free account on <a href="https://supabase.com" target="_blank" rel="noreferrer" className="text-[#DDB93B] underline inline-flex items-center gap-0.5">supabase.com <ExternalLink className="h-2.5 w-2.5" /></a> and set up a new project.</li>
+src/components/SupabaseDiagnosticModal.tsx:301:              className="px-5 py-2.5 bg-[#0F5232] hover:bg-[#DDB93B] text-white hover:text-black hover:border-transparent text-[10px] uppercase font-extrabold tracking-widest border border-[#DDB93B]/25 transition-all cursor-pointer flex items-center justify-center gap-1.5"
+src/components/HomePath.tsx:46:            <span className="h-[1px] w-12 bg-[#DDB93B]/45" />
+src/components/HomePath.tsx:47:            <span className="text-[10px] tracking-[0.5em] text-[#DDB93B] uppercase font-black">
+src/components/HomePath.tsx:50:            <span className="h-[1px] w-12 bg-[#DDB93B]/45" />
+src/components/HomePath.tsx:54:            Aura <span className="font-serif-deco text-3xl sm:text-5xl lg:text-6xl text-[#DDB93B] block sm:inline">Roopashree</span>
+src/components/HomePath.tsx:64:              className="w-full sm:w-auto px-8 py-4 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/35 text-xs font-bold uppercase tracking-widest transition-all cursor-pointer"
+src/components/HomePath.tsx:70:              className="w-full sm:w-auto px-8 py-4 border border-gray-200 hover:border-[#DDB93B] text-gray-900 text-xs font-bold uppercase tracking-widest transition-all cursor-pointer bg-gray-100"
+src/components/HomePath.tsx:84:      <section className="max-w-4xl mx-auto px-6 text-center relative py-12 border-y border-[#DDB93B]/15">
+src/components/HomePath.tsx:85:        <span className="text-4xl text-[#DDB93B] font-serif block mb-4">“</span>
+src/components/HomePath.tsx:89:        <cite className="block text-[11px] uppercase tracking-widest text-[#DDB93B] font-bold mt-6 not-italic font-sans">
+src/components/HomePath.tsx:97:          <span className="text-[10px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">EXPERIENCE SELECTORS</span>
+src/components/HomePath.tsx:99:          <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/components/HomePath.tsx:105:          <div className="bg-white border border-[#DDB93B]/20 p-8 text-center hover:shadow-lg space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/components/HomePath.tsx:106:            <div className="absolute -right-6 -bottom-6 text-[#0F5232]/5 group-hover:text-[#0F5232]/10 group-hover:scale-125 transition-all text-8xl font-mono">✂</div>
+src/components/HomePath.tsx:107:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">Hair Therapeutics</h3>
+src/components/HomePath.tsx:113:              className="text-[10px] text-[#0F5232] hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/components/HomePath.tsx:120:          <div className="bg-white border border-[#DDB93B]/20 p-8 text-center hover:shadow-lg space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/components/HomePath.tsx:121:            <div className="absolute -right-6 -bottom-6 text-[#0F5232]/5 group-hover:text-[#0F5232]/10 group-hover:scale-125 transition-all text-8xl font-mono">👑</div>
+src/components/HomePath.tsx:122:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">Royal Bridal Glam</h3>
+src/components/HomePath.tsx:128:              className="text-[10px] text-[#0F5232] hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/components/HomePath.tsx:135:          <div className="bg-white border border-[#DDB93B]/20 p-8 text-center hover:shadow-lg space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/components/HomePath.tsx:136:            <div className="absolute -right-6 -bottom-6 text-[#0F5232]/5 group-hover:text-[#0F5232]/10 group-hover:scale-125 transition-all text-8xl font-mono">🏆</div>
+src/components/HomePath.tsx:137:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">VIP Lounge Club</h3>
+src/components/HomePath.tsx:143:              className="text-[10px] text-[#0F5232] hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/components/HomePath.tsx:153:      <section className="bg-white border-y border-[#DDB93B]/20 py-20">
+src/components/HomePath.tsx:158:              <span className="text-[10px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">AESTHETIC SCHEDULERS</span>
+src/components/HomePath.tsx:170:                className="bg-white border border-[#DDB93B]/25 hover:border-[#DDB93B] overflow-hidden flex flex-col md:flex-row gap-6 p-4 group transition-all text-left rounded"
+src/components/HomePath.tsx:181:                    <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-extrabold">{blog.category}</span>
+src/components/HomePath.tsx:182:                    <h3 className="font-serif-luxury text-lg text-[#0F5232] font-semibold leading-snug group-hover:text-[#DDB93B] transition-colors">{blog.title}</h3>
+src/components/HomePath.tsx:188:                      className="text-[10px] uppercase font-black tracking-widest text-[#0F5232] hover:text-[#DDB93B] underline underline-offset-4 cursor-pointer"
+src/components/HomePath.tsx:203:        <div className="bg-[#0F5232] border border-[#DDB93B]/30 p-8 sm:p-12 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-8 relative overflow-hidden rounded">
+src/components/HomePath.tsx:218:              className="py-3 px-8 bg-[#DDB93B] hover:bg-transparent text-[#0F5232] hover:text-white text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B] transition-colors cursor-pointer text-center"
+src/components/HomePath.tsx:224:              className="py-3 px-8 bg-transparent text-white hover:bg-[#DDB93B] hover:text-[#0F5232] text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer text-center border border-white"
+src/app/services/page.tsx:82:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">AURA TREATMENTS</span>
+src/app/services/page.tsx:87:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/services/page.tsx:116:            className="w-full bg-black/80 border border-gray-200 px-4 py-2.5 text-xs text-gray-900 placeholder-gray-500 focus:outline-none focus:border-[#DDB93B]"
+src/app/services/page.tsx:128:              className="bg-[#050905] border border-gray-200 hover:border-[#DDB93B]/35 flex flex-col justify-between p-6 sm:p-8 hover:bg-[#070b07] transition-all relative overflow-hidden group"
+src/app/services/page.tsx:131:              <div className="absolute top-0 right-0 bg-[#0F5232]/50 text-[#DDB93B] text-[8px] uppercase tracking-widest font-black px-3 py-1.5 border-b border-l border-gray-200">
+src/app/services/page.tsx:136:                <span className="text-[9px] font-mono tracking-widest text-[#DDB93B] uppercase block">
+src/app/services/page.tsx:140:                <h3 className="font-serif-luxury text-xl text-gray-900 font-semibold tracking-wide leading-tight group-hover:text-[#DDB93B] transition-colors pt-2">
+src/app/services/page.tsx:151:                    <Clock className="h-3.5 w-3.5 text-[#DDB93B]" />
+src/app/services/page.tsx:160:                  <span className="font-serif-luxury text-xl text-[#DDB93B] font-semibold">
+src/app/services/page.tsx:169:                      className="py-2.5 px-3 bg-black border border-[#DDB93B]/50 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer inline-flex items-center gap-1"
+src/app/services/page.tsx:177:                    className="py-2.5 px-4 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer border border-[#DDB93B]/25 inline-flex items-center gap-1"
+src/app/services/page.tsx:192:            className="text-[10px] uppercase font-bold text-[#DDB93B] hover:underline"
+src/app/services/page.tsx:201:        <span className="text-[#DDB93B] uppercase tracking-wide font-semibold block">Need Something Custom?</span>
+src/app/services/page.tsx:210:          <div className="w-full max-w-lg bg-[#0a0a0a] border border-[#DDB93B]/30 p-6 sm:p-8 relative rounded-none shadow-[0_0_80px_rgba(212,175,55,0.08)] my-8">
+src/app/services/page.tsx:211:            <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/app/services/page.tsx:215:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">admin console</span>
+src/app/services/page.tsx:220:                className="p-1 border border-gray-200 hover:border-[#DDB93B] text-gray-500 hover:text-[#DDB93B] cursor-pointer"
+src/app/services/page.tsx:240:                  className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/services/page.tsx:250:                    className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[33px] cursor-pointer"
+src/app/services/page.tsx:267:                    className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/services/page.tsx:279:                  className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/services/page.tsx:290:                  className="w-full bg-black border border-gray-200 p-3 text-gray-900 focus:outline-none focus:border-[#DDB93B] resize-none"
+src/app/services/page.tsx:305:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-gray-900 text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer flex items-center gap-1"
+src/app/page.tsx:46:            <span className="h-[1px] w-12 bg-[#DDB93B]/45" />
+src/app/page.tsx:47:            <span className="text-[10px] tracking-[0.5em] text-[#DDB93B] uppercase font-black">
+src/app/page.tsx:50:            <span className="h-[1px] w-12 bg-[#DDB93B]/45" />
+src/app/page.tsx:54:            Aura <span className="font-serif-deco text-3xl sm:text-5xl lg:text-6xl text-[#DDB93B] block sm:inline">Roopashree</span>
+src/app/page.tsx:64:              className="w-full sm:w-auto px-8 py-4 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/35 text-xs font-bold uppercase tracking-widest transition-all cursor-pointer"
+src/app/page.tsx:70:              className="w-full sm:w-auto px-8 py-4 border border-gray-200 hover:border-[#DDB93B] text-gray-900 text-xs font-bold uppercase tracking-widest transition-all cursor-pointer bg-gray-100"
+src/app/page.tsx:84:      <section className="max-w-4xl mx-auto px-6 text-center relative py-12 border-y border-[#DDB93B]/15">
+src/app/page.tsx:85:        <span className="text-4xl text-[#DDB93B] font-serif block mb-4">“</span>
+src/app/page.tsx:89:        <cite className="block text-[11px] uppercase tracking-widest text-[#DDB93B] font-bold mt-6 not-italic font-sans">
+src/app/page.tsx:97:          <span className="text-[10px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">EXPERIENCE SELECTORS</span>
+src/app/page.tsx:99:          <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/page.tsx:105:          <div className="bg-white/95 backdrop-blur-md border border-gray-200 p-8 text-center space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/app/page.tsx:107:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">Hair Therapeutics</h3>
+src/app/page.tsx:113:              className="text-[10px] text-gray-900 hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/app/page.tsx:120:          <div className="bg-white/95 backdrop-blur-md border border-gray-200 p-8 text-center space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/app/page.tsx:122:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">Royal Bridal Glam</h3>
+src/app/page.tsx:128:              className="text-[10px] text-gray-900 hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/app/page.tsx:135:          <div className="bg-white/95 backdrop-blur-md border border-gray-200 p-8 text-center space-y-4 hover:border-[#DDB93B]/50 transition-all relative group overflow-hidden rounded">
+src/app/page.tsx:137:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wider uppercase font-semibold">VIP Lounge Club</h3>
+src/app/page.tsx:143:              className="text-[10px] text-gray-900 hover:text-[#DDB93B] uppercase tracking-widest font-black inline-flex items-center gap-1 cursor-pointer pt-2"
+src/app/page.tsx:158:              <span className="text-[10px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">AESTHETIC SCHEDULERS</span>
+src/app/page.tsx:170:                className="bg-white/95 backdrop-blur-md border border-gray-200 hover:border-[#DDB93B]/30 overflow-hidden flex flex-col md:flex-row gap-6 p-4 group transition-all text-left rounded"
+src/app/page.tsx:181:                    <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-extrabold">{blog.category}</span>
+src/app/page.tsx:182:                    <h3 className="font-serif-luxury text-lg text-gray-900 font-semibold leading-snug group-hover:text-[#DDB93B] transition-colors">{blog.title}</h3>
+src/app/page.tsx:188:                      className="text-[10px] uppercase font-black tracking-widest text-gray-900 hover:text-[#DDB93B] underline underline-offset-4 cursor-pointer"
+src/app/page.tsx:203:        <div className="bg-black/70 backdrop-blur-md border border-[#DDB93B]/30 p-8 sm:p-12 text-center sm:text-left flex flex-col sm:flex-row justify-between items-center gap-8 relative overflow-hidden rounded">
+src/app/page.tsx:218:              className="py-3 px-8 bg-black hover:bg-[#DDB93B] hover:text-black text-gray-900 text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/50 transition-colors cursor-pointer text-center"
+src/app/page.tsx:224:              className="py-3 px-8 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer text-center border border-gray-200"
+src/app/membership/page.tsx:33:      icon: <ShieldCheck className="h-6 w-6 text-[#DDB93B]" />,
+src/app/membership/page.tsx:66:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">MEMBERSHIP PRIVILEGES</span>
+src/app/membership/page.tsx:71:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/membership/page.tsx:83:                  ? 'bg-[#030d07] border-2 border-[#DDB93B] gold-glow' 
+src/app/membership/page.tsx:84:                  : 'bg-[#050905] border border-gray-200 hover:border-[#DDB93B]/50'
+src/app/membership/page.tsx:88:                <div className="absolute top-0 right-0 bg-[#DDB93B] text-black text-[8px] uppercase tracking-widest font-black px-4 py-1">
+src/app/membership/page.tsx:111:                    <span className="font-serif-luxury text-3xl text-[#DDB93B] font-bold">
+src/app/membership/page.tsx:122:                      <CheckCircle className={`h-4 w-4 shrink-0 mt-0.5 ${isGold ? 'text-[#DDB93B]' : 'text-emerald-500'}`} />
+src/app/membership/page.tsx:134:                      ? 'bg-[#DDB93B] text-black hover:bg-white' 
+src/app/membership/page.tsx:135:                      : 'bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25'
+src/app/appointment/page.tsx:117:          <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">Security Priority Gate</span>
+src/app/appointment/page.tsx:122:          <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-2" />
+src/app/appointment/page.tsx:137:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">AURA APPOINTMENT RESERVE</span>
+src/app/appointment/page.tsx:142:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/appointment/page.tsx:147:        <div className="bg-[#031508] border-2 border-[#DDB93B] p-8 text-center space-y-6 animate-fade-in relative overflow-hidden" id="booking-receipt-box">
+src/app/appointment/page.tsx:148:          <div className="absolute top-0 right-0 bg-[#DDB93B] text-black text-[9px] uppercase tracking-widest font-black px-4 py-1">
+src/app/appointment/page.tsx:155:            <p className="text-[11px] font-mono text-gray-500">Receipt Sequence: <span className="text-[#DDB93B] text-sm font-bold">{createdReceipt.id}</span></p>
+src/app/appointment/page.tsx:158:          <div className="max-w-md mx-auto border-y border-[#DDB93B]/20 py-6 text-left space-y-3.5 text-xs text-gray-600 font-light leading-relaxed">
+src/app/appointment/page.tsx:177:            className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] font-bold uppercase tracking-widest transition-all cursor-pointer"
+src/app/appointment/page.tsx:204:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/app/appointment/page.tsx:221:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/app/appointment/page.tsx:237:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B]"
+src/app/appointment/page.tsx:250:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/app/appointment/page.tsx:265:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/app/appointment/page.tsx:283:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/app/appointment/page.tsx:302:                    className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/appointment/page.tsx:314:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[38px] cursor-pointer"
+src/app/appointment/page.tsx:333:                className="w-full bg-black border border-gray-200 p-4 font-sans text-xs text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] resize-none"
+src/app/appointment/page.tsx:344:                className="w-full sm:w-auto px-10 py-3.5 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/35 transition-all text-center cursor-pointer"
+src/app/admin/page.tsx:374:        <div className="bg-[#0b0f0b] border border-[#DDB93B] p-8 text-center space-y-6">
+src/app/admin/page.tsx:375:          <div className="text-3xl font-serif-luxury text-[#DDB93B] tracking-widest font-black">🔒 ACCESS GATE</div>
+src/app/admin/page.tsx:387:                className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-center text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/admin/page.tsx:396:              className="w-full py-2.5 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/25 transition-all cursor-pointer"
+src/app/admin/page.tsx:415:          <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-extrabold flex items-center gap-1.5">
+src/app/admin/page.tsx:429:                : 'bg-[#0f1511] border-[#DDB93B]/30 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent'
+src/app/admin/page.tsx:438:            className="px-4 py-2 bg-black border border-gray-200 hover:border-[#DDB93B] hover:text-[#DDB93B] text-gray-900 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/app/admin/page.tsx:467:                ? 'text-[#DDB93B] border-[#DDB93B] bg-white/5'
+src/app/admin/page.tsx:504:                    className="px-4 py-2 border border-[#DDB93B]/50 hover:bg-[#DDB93B]/10 text-[#DDB93B] text-[10px] uppercase font-bold tracking-widest cursor-pointer flex items-center gap-1.5"
+src/app/admin/page.tsx:517:                    className="px-4 py-2 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer"
+src/app/admin/page.tsx:526:                <div className="w-full mt-4 p-4 bg-black border border-[#DDB93B]/25 text-left space-y-4 font-mono text-[11px] block">
+src/app/admin/page.tsx:528:                    <span className="text-[#DDB93B] font-bold uppercase tracking-wider text-[10px]">Quick SQL Installation script:</span>
+src/app/admin/page.tsx:531:                      className="flex items-center gap-1 bg-[#0F5232]/40 border border-[#DDB93B]/35 text-[#DDB93B] px-2.5 py-1 text-[10px] hover:bg-[#DDB93B] hover:text-black transition-all cursor-pointer"
+src/app/admin/page.tsx:550:            <div className="bg-[#0b0f0b] border border-[#DDB93B]/50 p-6 space-y-4 animate-fade-in relative overflow-hidden" id="admin-alerts-hub">
+src/app/admin/page.tsx:552:              <div className="absolute top-0 right-0 h-16 w-16 bg-gradient-to-br from-transparent to-[#DDB93B]/5 pointer-events-none" />
+src/app/admin/page.tsx:581:                    className="p-3.5 bg-black border border-gray-200 hover:border-[#DDB93B]/35 transition-all text-xs flex flex-col justify-between gap-3 relative group"
+src/app/admin/page.tsx:585:                        <span className="font-semibold text-gray-900 group-hover:text-[#DDB93B] transition-colors">{apt.name}</span>
+src/app/admin/page.tsx:598:                        className="text-[9px] uppercase font-bold tracking-wider text-[#DDB93B] hover:underline cursor-pointer flex items-center gap-1"
+src/app/admin/page.tsx:620:              <p className="font-serif-luxury text-3xl text-[#DDB93B] font-bold">{activeClientsCount}</p>
+src/app/admin/page.tsx:641:              <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Services Distribution By Type</h3>
+src/app/admin/page.tsx:649:                    <Bar dataKey="count" fill="#DDB93B" />
+src/app/admin/page.tsx:664:                <span className="text-[#DDB93B] uppercase font-bold block">💡 Client Desk Guidelines:</span>
+src/app/admin/page.tsx:692:                      ? 'border-[#DDB93B] bg-amber-950/20 shadow-[0_0_25px_rgba(212,175,55,0.2)] ring-2 ring-[#DDB93B]/40' 
+src/app/admin/page.tsx:699:                            : 'border-[#DDB93B]/35 bg-[#050805]'
+src/app/admin/page.tsx:709:                          <span className="text-[8px] bg-[#DDB93B] text-black font-extrabold px-2 py-0.5 animate-pulse flex items-center gap-1 uppercase tracking-widest">
+src/app/admin/page.tsx:720:                          'bg-[#DDB93B]/20 text-[#DDB93B]'
+src/app/admin/page.tsx:739:                          className="px-3 py-1.5 border border-[#DDB93B]/40 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black text-[10px] font-bold uppercase tracking-widest cursor-pointer"
+src/app/admin/page.tsx:779:                    <div className="p-3 bg-[#0a0c0a] border-l-2 border-[#DDB93B] font-mono text-[11px] leading-relaxed text-gray-500">
+src/app/admin/page.tsx:788:                      className="bg-[#0f1511] border border-[#DDB93B]/45 p-4 space-y-4 animate-fade-in"
+src/app/admin/page.tsx:790:                      <span className="text-[10px] uppercase font-black tracking-widest text-[#DDB93B] block">Reschedule timing console</span>
+src/app/admin/page.tsx:823:                          className="px-4 py-1.5 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-gray-900 text-[10px] uppercase font-bold tracking-widest cursor-pointer"
+src/app/admin/page.tsx:896:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/app/admin/page.tsx:905:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B] w-full h-[33px] cursor-pointer"
+src/app/admin/page.tsx:923:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/app/admin/page.tsx:935:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/app/admin/page.tsx:947:                  className="bg-black border border-gray-200 p-3 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full resize-none font-sans"
+src/app/admin/page.tsx:954:                  className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/app/admin/page.tsx:964:            <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Procedure catalog in file</h3>
+src/app/admin/page.tsx:970:                    <span className="text-[8px] tracking-widest text-[#DDB93B] uppercase font-bold">{svc.category}</span>
+src/app/admin/page.tsx:1011:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/app/admin/page.tsx:1023:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full"
+src/app/admin/page.tsx:1032:                  className="bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B] w-full h-[33px] cursor-pointer"
+src/app/admin/page.tsx:1051:                  className="bg-black border border-gray-200 p-3 text-gray-900 placeholder-gray-600 focus:outline-none focus:border-[#DDB93B] w-full resize-none font-sans"
+src/app/admin/page.tsx:1058:                  className="py-2.5 px-6 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer"
+src/app/admin/page.tsx:1068:            <h3 className="font-serif-luxury text-sm text-[#DDB93B] tracking-widest uppercase font-bold">Gallery Portraits in file</h3>
+src/app/admin/page.tsx:1082:                      <span className="text-[8px] uppercase tracking-widest text-[#DDB93B] font-bold block">{item.category}</span>
+src/app/admin/page.tsx:1113:          <div className="border border-[#DDB93B]/20 bg-[#070a07] p-6 relative">
+src/app/admin/page.tsx:1114:            <div className="absolute top-1 left-1 bottom-1 right-1 border border-[#DDB93B]/5 pointer-events-none" />
+src/app/admin/page.tsx:1117:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">capacity limits</span>
+src/app/admin/page.tsx:1134:                className="px-4 py-2 bg-black border border-[#DDB93B]/35 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black text-[9px] uppercase font-black tracking-widest cursor-pointer transition-all"
+src/app/admin/page.tsx:1187:                  className="bg-black border border-gray-200 px-3 py-2 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] flex-1 font-mono"
+src/app/admin/page.tsx:1191:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-gray-900 text-[10px] uppercase font-bold tracking-widest cursor-pointer flex items-center justify-center gap-1.5 transition-colors"
+src/app/admin/page.tsx:1201:            <h4 className="text-[10px] uppercase font-black text-[#DDB93B] tracking-widest mb-4">Active Timing Coordinates ({bookingSlots.length})</h4>
+src/app/admin/page.tsx:1211:                    className="p-3 bg-black border border-gray-200 flex justify-between items-center group hover:border-[#DDB93B]/50 transition-colors"
+src/app/admin/page.tsx:1242:            className="pointer-events-auto bg-black/95 border border-[#DDB93B] p-4 shadow-[0_4px_30px_rgba(212,175,55,0.18)] flex flex-col gap-3 animate-fade-in transition-all relative overflow-hidden group text-left"
+src/app/admin/page.tsx:1245:            <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-[#DDB93B] to-transparent" />
+src/app/admin/page.tsx:1250:                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#DDB93B] opacity-75"></span>
+src/app/admin/page.tsx:1251:                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#DDB93B]"></span>
+src/app/admin/page.tsx:1253:                <span className="text-[9px] uppercase tracking-widest font-extrabold text-[#DDB93B] font-mono">
+src/app/admin/page.tsx:1259:                className="text-gray-500 hover:text-[#DDB93B] transition-colors cursor-pointer"
+src/app/admin/page.tsx:1267:                Client <strong className="text-[#DDB93B]">{toast.appointment.name}</strong> has just booked a session!
+src/app/admin/page.tsx:1282:                className="px-3 py-1 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black text-[9px] uppercase font-bold tracking-widest transition-colors cursor-pointer"
+src/app/contact/page.tsx:32:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">SALON MAP & COORDINATES</span>
+src/app/contact/page.tsx:37:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/contact/page.tsx:51:                <MapPin className="h-5 w-5 text-[#DDB93B] shrink-0 mt-0.5" />
+src/app/contact/page.tsx:59:                <Phone className="h-5 w-5 text-[#DDB93B]" />
+src/app/contact/page.tsx:64:                <Mail className="h-5 w-5 text-[#DDB93B]" />
+src/app/contact/page.tsx:71:            <h3 className="font-serif-luxury text-xl text-[#DDB93B] tracking-wide font-semibold uppercase">Operations Cycle</h3>
+src/app/contact/page.tsx:87:          <div className="p-6 bg-[#0F5232]/10 border border-[#DDB93B]/35 space-y-3">
+src/app/contact/page.tsx:88:            <span className="text-[#DDB93B] text-[10px] font-mono uppercase tracking-widest block font-bold">💡 Driving landmarks:</span>
+src/app/contact/page.tsx:104:            <div className="p-8 bg-[#031508] border border-[#DDB93B]/45 text-center space-y-4 animate-fade-in text-gray-900">
+src/app/contact/page.tsx:106:              <h4 className="font-serif-luxury text-base text-[#DDB93B] font-semibold">Message Dispatched!</h4>
+src/app/contact/page.tsx:119:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/contact/page.tsx:130:                  className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/contact/page.tsx:142:                  className="w-full bg-black border border-gray-200 p-4 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] resize-none"
+src/app/contact/page.tsx:148:                className="w-full py-3 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black border border-[#DDB93B]/25 text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer text-center flex items-center justify-center gap-2 text-gray-900"
+src/app/gallery/page.tsx:75:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">STUDIO PORTFOLIO</span>
+src/app/gallery/page.tsx:80:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/gallery/page.tsx:91:                ? 'bg-[#DDB93B] border-transparent text-black'
+src/app/gallery/page.tsx:107:              className="bg-[#0b0c0b] border border-gray-200 overflow-hidden hover:border-[#DDB93B]/45 cursor-pointer group transition-all"
+src/app/gallery/page.tsx:116:                  <span className="text-[9px] uppercase tracking-widest text-[#DDB93B] font-black bg-white/95 px-2 py-1 align-top self-start">
+src/app/gallery/page.tsx:141:                    className="py-1.5 px-3 bg-black border border-[#DDB93B]/50 text-[#DDB93B] hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[9px] uppercase font-bold tracking-widest transition-colors cursor-pointer inline-flex items-center gap-1 z-10"
+src/app/gallery/page.tsx:159:          <div className="w-full max-w-lg bg-[#0a0a0a] border border-[#DDB93B]/30 p-6 sm:p-8 relative rounded-none shadow-[0_0_80px_rgba(212,175,55,0.08)] my-8">
+src/app/gallery/page.tsx:160:            <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/app/gallery/page.tsx:164:                <span className="text-[8px] tracking-[0.3em] text-[#DDB93B] uppercase font-bold block">admin console</span>
+src/app/gallery/page.tsx:169:                className="p-1 border border-gray-200 hover:border-[#DDB93B] text-gray-500 hover:text-[#DDB93B] cursor-pointer"
+src/app/gallery/page.tsx:189:                  className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/gallery/page.tsx:200:                  className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B]"
+src/app/gallery/page.tsx:209:                  className="w-full bg-black border border-gray-200 px-3 py-2 text-gray-900 focus:outline-none focus:border-[#DDB93B] h-[33px] cursor-pointer"
+src/app/gallery/page.tsx:227:                  className="w-full bg-black border border-gray-200 p-3 text-gray-900 focus:outline-none focus:border-[#DDB93B] resize-none"
+src/app/gallery/page.tsx:242:                  className="px-5 py-2 bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black text-gray-900 text-[10px] uppercase font-bold tracking-widest transition-colors cursor-pointer flex items-center gap-1"
+src/app/auth/page.tsx:215:      <div className="w-full max-w-md bg-[#0c0c0c] border border-[#DDB93B]/20 p-8 relative rounded-none shadow-[0_0_50px_rgba(212,175,55,0.05)]" id="auth-box">
+src/app/auth/page.tsx:218:        <div className="absolute top-2 left-2 bottom-2 right-2 border border-[#DDB93B]/5 pointer-events-none" />
+src/app/auth/page.tsx:222:          <div className="h-10 w-10 border border-[#DDB93B]/40 flex items-center justify-center mb-3 bg-[#111] animate-pulse">
+src/app/auth/page.tsx:223:            <Sparkles className="h-4 w-4 text-[#DDB93B]" />
+src/app/auth/page.tsx:225:          <h2 className="font-serif-deco text-2xl text-[#DDB93B] tracking-widest uppercase">
+src/app/auth/page.tsx:233:            <div className="mt-4 px-3 py-1.5 bg-[#0F5232]/20 border border-[#DDB93B]/30 text-[#DDB93B] text-xs font-medium uppercase tracking-wider rounded-none">
+src/app/auth/page.tsx:252:                <p className="text-[10px] text-[#DDB93B] font-bold uppercase tracking-wider">⚡ Immediate Local Bypass Option</p>
+src/app/auth/page.tsx:259:                  className="w-full py-2 bg-[#DDB93B] hover:bg-white text-black text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer flex items-center justify-center gap-1"
+src/app/auth/page.tsx:271:            <CheckCircle className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/app/auth/page.tsx:273:              <span className="font-bold block uppercase tracking-wider mb-0.5 text-xs text-[#DDB93B]">Authorization Channel</span>
+src/app/auth/page.tsx:281:          <div className="mb-6 p-4 bg-[#111] border border-[#DDB93B]/40 text-left relative z-10 space-y-3">
+src/app/auth/page.tsx:283:              <span className="inline-block p-1 bg-[#DDB93B]/10 text-[#DDB93B] border border-[#DDB93B]/20 rounded-none">
+src/app/auth/page.tsx:294:              className="w-full py-2 bg-[#DDB93B]/10 hover:bg-[#DDB93B]/20 border border-[#DDB93B] text-gray-900 text-[10px] uppercase font-bold tracking-widest transition-all cursor-pointer flex items-center justify-center gap-1"
+src/app/auth/page.tsx:296:              <KeyRound className="h-3.5 w-3.5 text-[#DDB93B]" />
+src/app/auth/page.tsx:312:                mode === 'login' ? 'text-[#DDB93B]' : 'text-gray-500 hover:text-gray-900'
+src/app/auth/page.tsx:317:                <span className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#DDB93B]" />
+src/app/auth/page.tsx:325:                mode === 'register' ? 'text-[#DDB93B]' : 'text-gray-500 hover:text-gray-900'
+src/app/auth/page.tsx:330:                <span className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#DDB93B]" />
+src/app/auth/page.tsx:346:              className="flex items-center gap-1.5 text-[9px] uppercase tracking-widest text-[#DDB93B] hover:text-gray-900 transition-colors border-0 bg-transparent mb-2 cursor-pointer font-bold"
+src/app/auth/page.tsx:350:            <h3 className="text-sm font-bold uppercase tracking-wider text-[#DDB93B] font-serif-deco">Request Recovery Link</h3>
+src/app/auth/page.tsx:357:            <h3 className="text-sm font-bold uppercase tracking-wider text-[#DDB93B] font-serif-deco">Reconstitute Passphrase</h3>
+src/app/auth/page.tsx:372:                  <User className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/app/auth/page.tsx:379:                    className="w-full bg-[#111] border border-gray-200 px-9 py-2.5 text-xs text-gray-900 placeholder-white/20 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/app/auth/page.tsx:391:                  <Phone className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/app/auth/page.tsx:398:                    className="w-full bg-[#111] border border-gray-200 px-9 py-2.5 text-xs text-gray-900 placeholder-white/20 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/app/auth/page.tsx:412:                  className="w-full bg-[#111] border border-gray-200 px-3 py-2.5 text-xs text-gray-900 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/app/auth/page.tsx:430:              <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/app/auth/page.tsx:441:                    : 'bg-[#111] border-gray-200 text-gray-900 placeholder-white/30 focus:outline-none focus:border-[#DDB93B]'
+src/app/auth/page.tsx:464:                    className="text-[9px] uppercase tracking-wider text-[#DDB93B] hover:text-gray-900 transition-colors bg-transparent border-0 cursor-pointer font-semibold"
+src/app/auth/page.tsx:471:                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-[#DDB93B]/50" />
+src/app/auth/page.tsx:478:                  className="w-full bg-[#111] border border-gray-200 px-9 py-2.5 text-xs text-gray-900 placeholder-white/20 focus:outline-none focus:border-[#DDB93B] transition-colors rounded-none"
+src/app/auth/page.tsx:489:              className={`w-full py-3 text-[10px] uppercase tracking-widest font-bold flex items-center justify-center gap-2 group transition-all text-gray-900 border border-[#DDB93B]/40 ${
+src/app/auth/page.tsx:492:                  : 'bg-[#0F5232] hover:bg-[#DDB93B] hover:text-black hover:border-transparent cursor-pointer'
+src/app/auth/page.tsx:516:              className="text-[9px] uppercase tracking-widest text-[#DDB93B] hover:text-gray-900 transition-colors bg-transparent border-0 cursor-pointer font-bold"
+src/app/bridal/page.tsx:61:        <span className="text-[10px] tracking-[0.4em] text-[#DDB93B] uppercase font-bold block">ROYAL BRIDAL SANCTUARY</span>
+src/app/bridal/page.tsx:66:        <div className="h-[2px] w-12 bg-[#DDB93B] mx-auto mt-4" />
+src/app/bridal/page.tsx:78:          <span className="text-[10px] tracking-widest uppercase text-[#DDB93B] font-black block">EXQUISITE BRIDAL ATELIER</span>
+src/app/bridal/page.tsx:97:              className="bg-[#050805] border border-gray-200 hover:border-[#DDB93B]/50 p-6 sm:p-8 flex flex-col justify-between transition-all relative overflow-hidden group"
+src/app/bridal/page.tsx:106:                    <h4 className="font-serif-luxury text-lg text-gray-900 font-bold leading-tight group-hover:text-[#DDB93B] transition-colors">
+src/app/bridal/page.tsx:113:                  <span className="text-[10px] uppercase tracking-widest text-[#DDB93B] block mb-1">Total Luxury Investment</span>
+src/app/bridal/page.tsx:124:                      <Check className="h-4 w-4 text-[#DDB93B] shrink-0 mt-0.5" />
+src/app/bridal/page.tsx:135:                  className="w-full py-3 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-black tracking-widest border border-[#DDB93B]/25 transition-all text-center cursor-pointer"
+src/app/bridal/page.tsx:149:          <span className="text-[10px] uppercase tracking-[0.2em] text-[#DDB93B] font-bold block">EXPERTISE DETAILS</span>
+src/app/bridal/page.tsx:156:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/app/bridal/page.tsx:160:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/app/bridal/page.tsx:164:              <Sparkles className="h-3 w-3 text-[#DDB93B]" />
+src/app/bridal/page.tsx:169:        <div className="h-64 sm:h-80 overflow-hidden border border-[#DDB93B]/20 relative">
+src/index.css:35:  background: linear-gradient(135deg, #FFF 30%, #DDB93B 70%, #AA7C11 100%);
+src/index.css:49:  background: #DDB93B;
