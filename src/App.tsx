@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation, Routes, Route } from 'react-router-dom';
+import { useNavigate, useLocation, Routes, Route, Navigate } from 'react-router-dom';
 import { Bell, X } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -153,7 +153,11 @@ export default function App() {
     setCurrentUser(user);
     // If navigating on auth voluntarily, go back, otherwise unlock Page
     if (currentPage === 'auth') {
-      navigateToPage('appointment');
+      if (user.isAdmin) {
+        navigateToPage('admin');
+      } else {
+        navigateToPage('appointment');
+      }
     }
   };
 
@@ -547,22 +551,27 @@ export default function App() {
           } />
 
           <Route path="/admin" element={
-            <AdminDashboard 
-              appointments={appointments}
-              setAppointments={setAppointments}
-              services={services}
-              setServices={setServices}
-              galleryItems={galleryItems}
-              setGalleryItems={setGalleryItems}
-              beforeAfterItems={beforeAfterItems}
-              setBeforeAfterItems={setBeforeAfterItems}
-              dbStatusMsg={dbStatusMsg}
-              onRefreshData={refreshAllData}
-              onOpenDiagnostics={() => setIsDiagnosticOpen(true)}
-              currentUser={currentUser}
-              bookingSlots={bookingSlots}
-              onUpdateBookingSlots={handleUpdateBookingSlots}
-            />
+            currentUser?.isAdmin ? (
+              <AdminDashboard 
+                appointments={appointments}
+                setAppointments={setAppointments}
+                services={services}
+                setServices={setServices}
+                galleryItems={galleryItems}
+                setGalleryItems={setGalleryItems}
+                beforeAfterItems={beforeAfterItems}
+                setBeforeAfterItems={setBeforeAfterItems}
+                dbStatusMsg={dbStatusMsg}
+                onRefreshData={refreshAllData}
+                onOpenDiagnostics={() => setIsDiagnosticOpen(true)}
+                currentUser={currentUser}
+                bookingSlots={bookingSlots}
+                onUpdateBookingSlots={handleUpdateBookingSlots}
+                onNavigate={navigateToPage}
+              />
+            ) : (
+              <Navigate to="/auth" replace />
+            )
           } />
         </Routes>
       </main>
@@ -572,6 +581,7 @@ export default function App() {
         onNavigate={navigateToPage} 
         onOpenDiagnostics={() => setIsDiagnosticOpen(true)} 
         dbStatusMsg={dbStatusMsg}
+        currentUser={currentUser}
       />
 
       {/* Floating widgets panels */}

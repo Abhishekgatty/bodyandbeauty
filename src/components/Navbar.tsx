@@ -29,24 +29,24 @@ export default function Navbar({ currentPage, onNavigate, currentUser, onLogout 
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-border shadow-sm" id="header-navbar">
-      {/* Container: responsive gap, justify-start, hamburger pushed right with ml-auto */}
-      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-start gap-6 lg:gap-10">
+      {/* Container height increased to h-36 to accommodate the 144px logo without clipping */}
+   <div className="max-w-[1600px] mx-auto px-6 h-36 flex items-center w-full">
         
-        {/* Brand Logo – now naturally left, no negative margin */}
-        <button 
-          onClick={() => onNavigate('home')} 
-          className="flex items-center gap-2 group cursor-pointer text-left bg-transparent border-0 p-0"
-        >
+        {/* Brand Logo – unchanged, still h-36 */}
+        <button
+  onClick={() => onNavigate('home')}
+  className="flex items-center gap-2 group cursor-pointer text-left bg-transparent border-0 p-0 flex-shrink-0"
+>
           <Logo 
             variant="horizontal" 
             size="custom" 
-            customSizeClass="h-36"  // 144px – you may need a taller navbar (h-36) to avoid clipping
+            customSizeClass="h-36"  // remains 144px
             className="hover:opacity-95 transition-opacity" 
           />
         </button>
 
         {/* Desktop Links – hidden on mobile */}
-        <div className="hidden lg:flex items-center gap-10">
+      <div className="hidden lg:flex flex-1 items-center justify-center gap-8 min-w-0">
           {navItems.map((item) => {
             const isActive = currentPage === item.id;
             return (
@@ -67,7 +67,7 @@ export default function Navbar({ currentPage, onNavigate, currentUser, onLogout 
         </div>
 
         {/* Dynamic CTAs – hidden on mobile, shown on desktop */}
-        <div className="hidden lg:flex items-center gap-4">
+     <div className="hidden lg:flex items-center gap-4 ml-auto flex-shrink-0">
           
           {currentUser ? (
             <div className="flex items-center gap-3 border-r border-border pr-4 mr-2" id="nav-user-profile-badge">
@@ -76,7 +76,7 @@ export default function Navbar({ currentPage, onNavigate, currentUser, onLogout 
                   {currentUser.name}
                 </div>
                 <div className="text-[10px] tracking-wider text-text-secondary uppercase">
-                  Royal Member
+                {currentUser.isAdmin ? 'Administrator' : 'Royal Member'}
                 </div>
               </div>
               <button
@@ -102,19 +102,21 @@ export default function Navbar({ currentPage, onNavigate, currentUser, onLogout 
             </button>
           )}
           
-          <button
-            onClick={() => onNavigate('admin')}
-            className={`p-2.5 border rounded-md transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
-              currentPage === 'admin' 
-                ? 'border-secondary bg-secondary/10 text-secondary' 
-                : 'border-border text-text-secondary hover:text-secondary hover:border-secondary/40'
-            }`}
-            title="Administrative Console"
-            id="nav-admin-portal-trigger"
-          >
-            <Lock className="h-4 w-4" />
-            <span className="text-[10px] font-bold uppercase tracking-widest hidden xl:inline">Admin</span>
-          </button>
+          {currentUser?.isAdmin && (
+            <button
+              onClick={() => onNavigate('admin')}
+              className={`px-6 py-2.5 border rounded-md transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                currentPage === 'admin' 
+                  ? 'border-[#DDB93B] bg-[#DDB93B]/10 text-[#DDB93B]' 
+                  : 'border-[#DDB93B]/40 text-primary hover:text-white hover:bg-[#DDB93B] hover:border-[#DDB93B]'
+              }`}
+              title="Administrative Console"
+              id="nav-admin-portal-trigger"
+            >
+              <Lock className="h-4 w-4" />
+              <span className="text-[10px] font-bold uppercase tracking-widest hidden xl:inline">Admin Dashboard</span>
+            </button>
+          )}
 
           <button
             onClick={() => onNavigate('appointment')}
@@ -171,12 +173,14 @@ export default function Navbar({ currentPage, onNavigate, currentUser, onLogout 
                 Book Appointment
               </button>
 
-              <button
-                onClick={() => handleNavItemClick('admin')}
-                className="py-3 px-4 bg-gray-50 border border-gray-200 text-center uppercase tracking-widest text-[11px] text-text hover:text-secondary hover:border-secondary flex items-center justify-center gap-2 cursor-pointer rounded-md"
-              >
-                <Lock className="h-3.5 w-3.5 text-secondary" /> Admin Console
-              </button>
+                 {currentUser?.isAdmin && (
+                <button
+                  onClick={() => handleNavItemClick('admin')}
+                  className="py-3 px-4 bg-amber-50 border border-[#DDB93B]/40 text-center uppercase tracking-widest text-[11px] text-[#DDB93B] hover:bg-[#DDB93B] hover:text-white flex items-center justify-center gap-2 cursor-pointer rounded-md font-bold"
+                >
+                  <Lock className="h-3.5 w-3.5" /> Admin Dashboard
+                </button>
+              )}
             </div>
           </div>
         </div>

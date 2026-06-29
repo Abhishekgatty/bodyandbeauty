@@ -6,7 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import { 
   BarChart, Users, Scissors, Image as ImageIcon, X, 
-  Calendar, Clock, Sparkles, LogOut, Bell, BellOff, CreditCard
+  Calendar, Clock, Sparkles, LogOut, Bell, BellOff, CreditCard, Lock
 } from 'lucide-react';
 import { Appointment, Service, GalleryItem, UserProfile, BeforeAfterItem } from '../types';
 import { 
@@ -40,6 +40,7 @@ interface AdminDashboardProps {
   currentUser?: UserProfile | null;
   bookingSlots?: string[];
   onUpdateBookingSlots?: (slots: string[]) => Promise<void>;
+  onNavigate?: (page: string) => void;
 }
 
 export default function AdminDashboard({
@@ -56,7 +57,8 @@ export default function AdminDashboard({
   onOpenDiagnostics,
   currentUser,
   bookingSlots = [],
-  onUpdateBookingSlots
+  onUpdateBookingSlots,
+  onNavigate
 }: AdminDashboardProps) {
 
   // Dashboard navigation sub-state
@@ -227,8 +229,6 @@ export default function AdminDashboard({
     const email = currentUser?.email?.toLowerCase() || '';
     return currentUser?.isAdmin === true || email === 'admin@roopashree.com' || email === 'admin@bodyandbeautystudio.com';
   });
-  const [password, setPassword] = useState('');
-  const [authError, setAuthError] = useState('');
 
   // Sync authentication state with active login session
   useEffect(() => {
@@ -332,17 +332,6 @@ export default function AdminDashboard({
   const [rescheduleDate, setRescheduleDate] = useState('');
   const [rescheduleTime, setRescheduleTime] = useState('09:00 AM');
 
-  // Handle Auth submission
-  const handleAuthSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (password === 'shubha77' || password === 'admin') {
-      setIsAuthenticated(true);
-      setAuthError('');
-    } else {
-      setAuthError('Incorrect secret credential pass. Please type "shubha77" or "admin" to manage client data.');
-    }
-  };
-
   const broadcastUpdate = (appointment: Appointment) => {
     try {
       const channel = new BroadcastChannel('appointment_notifications');
@@ -413,35 +402,28 @@ export default function AdminDashboard({
   if (!isAuthenticated) {
     return (
       <div className="max-w-md mx-auto px-6 py-20 animate-fade-in" id="admin-pass-gate">
-        <div className="bg-[#0b0f0b] border border-[#DDB93B] p-8 text-center space-y-6">
-          <div className="text-3xl font-serif-luxury text-[#DDB93B] tracking-widest font-black">🔒 ACCESS GATE</div>
-          <p className="text-xs text-gray-500 font-light leading-relaxed">
-            Please provide your secret credential key to read customer entries, schedule tables, and edit catalog assets.
+        <div className="bg-[#0b0f0b] border border-red-500/30 p-8 text-center space-y-6 rounded-md shadow-xl">
+          <div className="text-2xl font-serif-luxury text-[#DDB93B] tracking-widest font-black flex flex-col items-center gap-3">
+            <Lock className="h-10 w-10 text-red-500 animate-pulse" />
+            <span>ACCESS RESTRICTED</span>
+          </div>
+          <p className="text-xs text-gray-400 font-light leading-relaxed">
+            This administrative dashboard is restricted to authorized personnel. Please sign in with an administrator account to manage bookings, services, and transactions.
           </p>
           
-          <form onSubmit={handleAuthSubmit} className="space-y-4">
-            <div className="space-y-1">
-              <input
-                type="password"
-                placeholder="Enter admin password (e.g. shubha77)"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="w-full bg-black border border-gray-200 px-4 py-2.5 text-xs text-center text-white focus:outline-none focus:border-[#DDB93B]"
-                autoFocus
-              />
-            </div>
-
-            {authError && <p className="text-[10px] text-red-400 font-mono text-center leading-normal">{authError}</p>}
-
+          <div className="pt-2">
             <button
-              type="submit"
-              className="w-full py-2.5 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-[10px] uppercase font-bold tracking-widest border border-[#DDB93B]/25 transition-all cursor-pointer"
+              onClick={() => {
+                if (onNavigate) {
+                  onNavigate('auth');
+                } else {
+                  window.location.hash = '#/auth';
+                }
+              }}
+              className="w-full py-3 bg-[#0F5232] text-white hover:bg-[#DDB93B] hover:text-black hover:border-transparent text-xs uppercase font-bold tracking-widest border border-[#DDB93B]/25 transition-all cursor-pointer rounded-md"
             >
-              Unlock Terminal
+              Sign In as Admin
             </button>
-          </form>
-          <div className="border-t border-white/5 pt-4">
-            <p className="text-[10px] text-gray-500 font-mono">Hint: type "shubha77" or "admin" to enter.</p>
           </div>
         </div>
       </div>

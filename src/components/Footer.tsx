@@ -6,11 +6,13 @@
 import React from 'react';
 import { Phone, Mail, Clock, MapPin, Sparkles } from 'lucide-react';
 import Logo from './Logo';
+import { UserProfile } from '../types';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
   onOpenDiagnostics?: () => void;
   dbStatusMsg?: { type: 'success' | 'warn' | 'error'; message: string } | null;
+  currentUser?: UserProfile | null;
 }
 
 export default function Footer({ onNavigate, onOpenDiagnostics, dbStatusMsg }: FooterProps) {
@@ -120,7 +122,7 @@ export default function Footer({ onNavigate, onOpenDiagnostics, dbStatusMsg }: F
         </div>
         <div className="flex flex-wrap items-center gap-4">
           {/* Database status – matches new colors */}
-          <button 
+          {/* <button 
             onClick={onOpenDiagnostics}
             className="flex items-center gap-1.5 px-3 py-1.5 bg-[#1F2937]/50 border border-[#D8A24A33] hover:border-[#D8A24A] transition-all text-[9px] uppercase font-bold tracking-wider cursor-pointer text-[#FFFFFF] hover:text-[#D8A24A]"
             title="Check database sync status"
@@ -136,14 +138,14 @@ export default function Footer({ onNavigate, onOpenDiagnostics, dbStatusMsg }: F
                 : 'bg-red-500 shadow-[0_0_8px_#f87171]'
             }`} />
             <span>Database: {!dbStatusMsg ? 'Offline Mode' : dbStatusMsg.type === 'success' ? 'Cloud Sync Live' : 'Action Required'}</span>
-          </button>
+          </button> */}
 
-          <button 
+          {/* <button 
             onClick={() => onNavigate('admin')} 
             className="hover:text-[#D8A24A] tracking-wider transition-all uppercase font-bold cursor-pointer text-[#FFFFFF]"
           >
             🔒 Administrative console
-          </button>
+          </button> */}
         </div>
       </div>
     </footer>
